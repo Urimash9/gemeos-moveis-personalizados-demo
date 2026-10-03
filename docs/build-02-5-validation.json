@@ -1,0 +1,751 @@
+{
+  "referenceCommit": "2faafc6d3bf6cf497d6b3b356b3400d698bf8a63",
+  "results": [
+    {
+      "width": 390,
+      "comparedElements": 325,
+      "structuralDifferences": 0,
+      "overflow": false,
+      "brokenImages": 0,
+      "cls": 0,
+      "portrait": {
+        "faceCovered": false,
+        "torsoCovered": false,
+        "faceInside": true,
+        "position": "100% 0%"
+      },
+      "sourceMapping": [
+        {
+          "slot": "hero",
+          "src": "/assets/images/gemeos/hero-cozinha.webp",
+          "width": 625,
+          "height": 805,
+          "position": "58% 50%"
+        },
+        {
+          "slot": "aboutMain",
+          "src": "/assets/images/gemeos/final/institucional-marcio-final.webp",
+          "width": 900,
+          "height": 1125,
+          "position": "100% 0%"
+        },
+        {
+          "slot": "aboutDetail",
+          "src": "/assets/images/gemeos/projeto-jantar-ripado.webp",
+          "width": 691,
+          "height": 910,
+          "position": "50% 52%"
+        },
+        {
+          "slot": "environment:0",
+          "src": "/assets/images/gemeos/final/cozinha-tratada-final.webp",
+          "width": 900,
+          "height": 1125,
+          "position": "50% 50%"
+        },
+        {
+          "slot": "gallery:0",
+          "src": "/assets/images/gemeos/final/cozinha-tratada-final.webp",
+          "width": 900,
+          "height": 1125,
+          "position": "50% 50%"
+        },
+        {
+          "slot": "gallery:1",
+          "src": "/assets/images/gemeos/final/sala-tv-final.webp",
+          "width": 900,
+          "height": 1125,
+          "position": "45% 50%"
+        },
+        {
+          "slot": "gallery:2",
+          "src": "/assets/images/gemeos/projeto-quarto-reflecta.webp",
+          "width": 691,
+          "height": 975,
+          "position": "50% 52%"
+        },
+        {
+          "slot": "gallery:3",
+          "src": "/assets/images/gemeos/projeto-home-office.webp",
+          "width": 625,
+          "height": 615,
+          "position": "23% 52%"
+        },
+        {
+          "slot": "gallery:4",
+          "src": "/assets/images/gemeos/area-gourmet.webp",
+          "width": 691,
+          "height": 1260,
+          "position": "50% 50%"
+        },
+        {
+          "slot": "gallery:5",
+          "src": "/assets/images/gemeos/final/cristaleira-final.webp",
+          "width": 900,
+          "height": 1125,
+          "position": "35% 50%"
+        },
+        {
+          "slot": "gallery:6",
+          "src": "/assets/images/gemeos/projeto-jantar-ripado.webp",
+          "width": 691,
+          "height": 910,
+          "position": "50% 52%"
+        },
+        {
+          "slot": "gallery:7",
+          "src": "/assets/images/gemeos/final/quarto-infantil-final.webp",
+          "width": 900,
+          "height": 1125,
+          "position": "50% 55%"
+        },
+        {
+          "slot": "commercial",
+          "src": "/assets/images/gemeos/comercial-oab.webp",
+          "width": 691,
+          "height": 830,
+          "position": "50% 50%"
+        },
+        {
+          "slot": "glass",
+          "src": "/assets/images/gemeos/final/cristaleira-final.webp",
+          "width": 900,
+          "height": 1125,
+          "position": "25% 50%"
+        },
+        {
+          "slot": "wood",
+          "src": "/assets/images/gemeos/projeto-jantar-ripado.webp",
+          "width": 691,
+          "height": 910,
+          "position": "50% 52%"
+        },
+        {
+          "slot": "light",
+          "src": "/assets/images/gemeos/painel-iluminacao.webp",
+          "width": 691,
+          "height": 1115,
+          "position": "50% 52%"
+        },
+        {
+          "slot": "process",
+          "src": "/assets/images/gemeos/final/processo-equipe-final.webp",
+          "width": 900,
+          "height": 1125,
+          "position": "50% 50%"
+        },
+        {
+          "slot": "project:0",
+          "src": "/assets/images/gemeos/final/cozinha-tratada-final.webp",
+          "width": 900,
+          "height": 1125,
+          "position": "50% 50%"
+        },
+        {
+          "slot": "project:1",
+          "src": "/assets/images/gemeos/projeto-quarto-reflecta.webp",
+          "width": 691,
+          "height": 975,
+          "position": "50% 52%"
+        },
+        {
+          "slot": "project:2",
+          "src": "/assets/images/gemeos/final/sala-tv-final.webp",
+          "width": 900,
+          "height": 1125,
+          "position": "45% 50%"
+        },
+        {
+          "slot": "project:3",
+          "src": "/assets/images/gemeos/projeto-sala-integrada.webp",
+          "width": 691,
+          "height": 970,
+          "position": "50% 52%"
+        },
+        {
+          "slot": "cta",
+          "src": "/assets/images/gemeos/painel-iluminacao.webp",
+          "width": 691,
+          "height": 1115,
+          "position": "50% 50%"
+        }
+      ],
+      "environmentChoices": 6,
+      "carouselCards": 8
+    },
+    {
+      "width": 768,
+      "comparedElements": 325,
+      "structuralDifferences": 0,
+      "overflow": false,
+      "brokenImages": 0,
+      "cls": 0,
+      "portrait": {
+        "faceCovered": false,
+        "torsoCovered": false,
+        "faceInside": true,
+        "position": "100% 0%"
+      },
+      "sourceMapping": [
+        {
+          "slot": "hero",
+          "src": "/assets/images/gemeos/hero-cozinha.webp",
+          "width": 625,
+          "height": 805,
+          "position": "52% 50%"
+        },
+        {
+          "slot": "aboutMain",
+          "src": "/assets/images/gemeos/final/institucional-marcio-final.webp",
+          "width": 900,
+          "height": 1125,
+          "position": "100% 0%"
+        },
+        {
+          "slot": "aboutDetail",
+          "src": "/assets/images/gemeos/projeto-jantar-ripado.webp",
+          "width": 691,
+          "height": 910,
+          "position": "50% 52%"
+        },
+        {
+          "slot": "environment:0",
+          "src": "/assets/images/gemeos/final/cozinha-tratada-final.webp",
+          "width": 900,
+          "height": 1125,
+          "position": "50% 50%"
+        },
+        {
+          "slot": "gallery:0",
+          "src": "/assets/images/gemeos/final/cozinha-tratada-final.webp",
+          "width": 900,
+          "height": 1125,
+          "position": "50% 50%"
+        },
+        {
+          "slot": "gallery:1",
+          "src": "/assets/images/gemeos/final/sala-tv-final.webp",
+          "width": 900,
+          "height": 1125,
+          "position": "45% 50%"
+        },
+        {
+          "slot": "gallery:2",
+          "src": "/assets/images/gemeos/projeto-quarto-reflecta.webp",
+          "width": 691,
+          "height": 975,
+          "position": "50% 52%"
+        },
+        {
+          "slot": "gallery:3",
+          "src": "/assets/images/gemeos/projeto-home-office.webp",
+          "width": 625,
+          "height": 615,
+          "position": "23% 52%"
+        },
+        {
+          "slot": "gallery:4",
+          "src": "/assets/images/gemeos/area-gourmet.webp",
+          "width": 691,
+          "height": 1260,
+          "position": "50% 50%"
+        },
+        {
+          "slot": "gallery:5",
+          "src": "/assets/images/gemeos/final/cristaleira-final.webp",
+          "width": 900,
+          "height": 1125,
+          "position": "35% 50%"
+        },
+        {
+          "slot": "gallery:6",
+          "src": "/assets/images/gemeos/projeto-jantar-ripado.webp",
+          "width": 691,
+          "height": 910,
+          "position": "50% 52%"
+        },
+        {
+          "slot": "gallery:7",
+          "src": "/assets/images/gemeos/final/quarto-infantil-final.webp",
+          "width": 900,
+          "height": 1125,
+          "position": "50% 55%"
+        },
+        {
+          "slot": "commercial",
+          "src": "/assets/images/gemeos/comercial-oab.webp",
+          "width": 691,
+          "height": 830,
+          "position": "50% 50%"
+        },
+        {
+          "slot": "glass",
+          "src": "/assets/images/gemeos/final/cristaleira-final.webp",
+          "width": 900,
+          "height": 1125,
+          "position": "25% 50%"
+        },
+        {
+          "slot": "wood",
+          "src": "/assets/images/gemeos/projeto-jantar-ripado.webp",
+          "width": 691,
+          "height": 910,
+          "position": "50% 52%"
+        },
+        {
+          "slot": "light",
+          "src": "/assets/images/gemeos/painel-iluminacao.webp",
+          "width": 691,
+          "height": 1115,
+          "position": "50% 52%"
+        },
+        {
+          "slot": "process",
+          "src": "/assets/images/gemeos/final/processo-equipe-final.webp",
+          "width": 900,
+          "height": 1125,
+          "position": "50% 50%"
+        },
+        {
+          "slot": "project:0",
+          "src": "/assets/images/gemeos/final/cozinha-tratada-final.webp",
+          "width": 900,
+          "height": 1125,
+          "position": "50% 50%"
+        },
+        {
+          "slot": "project:1",
+          "src": "/assets/images/gemeos/projeto-quarto-reflecta.webp",
+          "width": 691,
+          "height": 975,
+          "position": "50% 52%"
+        },
+        {
+          "slot": "project:2",
+          "src": "/assets/images/gemeos/final/sala-tv-final.webp",
+          "width": 900,
+          "height": 1125,
+          "position": "45% 50%"
+        },
+        {
+          "slot": "project:3",
+          "src": "/assets/images/gemeos/projeto-sala-integrada.webp",
+          "width": 691,
+          "height": 970,
+          "position": "50% 52%"
+        },
+        {
+          "slot": "cta",
+          "src": "/assets/images/gemeos/painel-iluminacao.webp",
+          "width": 691,
+          "height": 1115,
+          "position": "50% 50%"
+        }
+      ],
+      "environmentChoices": 6,
+      "carouselCards": 8
+    },
+    {
+      "width": 1440,
+      "comparedElements": 325,
+      "structuralDifferences": 0,
+      "overflow": false,
+      "brokenImages": 0,
+      "cls": 0,
+      "portrait": {
+        "faceCovered": false,
+        "torsoCovered": false,
+        "faceInside": true,
+        "position": "50% 0%"
+      },
+      "sourceMapping": [
+        {
+          "slot": "hero",
+          "src": "/assets/images/gemeos/hero-cozinha.webp",
+          "width": 625,
+          "height": 805,
+          "position": "52% 50%"
+        },
+        {
+          "slot": "aboutMain",
+          "src": "/assets/images/gemeos/final/institucional-marcio-final.webp",
+          "width": 900,
+          "height": 1125,
+          "position": "50% 0%"
+        },
+        {
+          "slot": "aboutDetail",
+          "src": "/assets/images/gemeos/projeto-jantar-ripado.webp",
+          "width": 691,
+          "height": 910,
+          "position": "50% 52%"
+        },
+        {
+          "slot": "environment:0",
+          "src": "/assets/images/gemeos/final/cozinha-tratada-final.webp",
+          "width": 900,
+          "height": 1125,
+          "position": "50% 50%"
+        },
+        {
+          "slot": "gallery:0",
+          "src": "/assets/images/gemeos/final/cozinha-tratada-final.webp",
+          "width": 900,
+          "height": 1125,
+          "position": "50% 50%"
+        },
+        {
+          "slot": "gallery:1",
+          "src": "/assets/images/gemeos/final/sala-tv-final.webp",
+          "width": 900,
+          "height": 1125,
+          "position": "40% 45%"
+        },
+        {
+          "slot": "gallery:2",
+          "src": "/assets/images/gemeos/projeto-quarto-reflecta.webp",
+          "width": 691,
+          "height": 975,
+          "position": "50% 52%"
+        },
+        {
+          "slot": "gallery:3",
+          "src": "/assets/images/gemeos/projeto-home-office.webp",
+          "width": 625,
+          "height": 615,
+          "position": "23% 52%"
+        },
+        {
+          "slot": "gallery:4",
+          "src": "/assets/images/gemeos/area-gourmet.webp",
+          "width": 691,
+          "height": 1260,
+          "position": "50% 50%"
+        },
+        {
+          "slot": "gallery:5",
+          "src": "/assets/images/gemeos/final/cristaleira-final.webp",
+          "width": 900,
+          "height": 1125,
+          "position": "35% 50%"
+        },
+        {
+          "slot": "gallery:6",
+          "src": "/assets/images/gemeos/projeto-jantar-ripado.webp",
+          "width": 691,
+          "height": 910,
+          "position": "50% 52%"
+        },
+        {
+          "slot": "gallery:7",
+          "src": "/assets/images/gemeos/final/quarto-infantil-final.webp",
+          "width": 900,
+          "height": 1125,
+          "position": "50% 55%"
+        },
+        {
+          "slot": "commercial",
+          "src": "/assets/images/gemeos/comercial-oab.webp",
+          "width": 691,
+          "height": 830,
+          "position": "50% 50%"
+        },
+        {
+          "slot": "glass",
+          "src": "/assets/images/gemeos/final/cristaleira-final.webp",
+          "width": 900,
+          "height": 1125,
+          "position": "30% 50%"
+        },
+        {
+          "slot": "wood",
+          "src": "/assets/images/gemeos/projeto-jantar-ripado.webp",
+          "width": 691,
+          "height": 910,
+          "position": "50% 52%"
+        },
+        {
+          "slot": "light",
+          "src": "/assets/images/gemeos/painel-iluminacao.webp",
+          "width": 691,
+          "height": 1115,
+          "position": "50% 52%"
+        },
+        {
+          "slot": "process",
+          "src": "/assets/images/gemeos/final/processo-equipe-final.webp",
+          "width": 900,
+          "height": 1125,
+          "position": "50% 60%"
+        },
+        {
+          "slot": "project:0",
+          "src": "/assets/images/gemeos/final/cozinha-tratada-final.webp",
+          "width": 900,
+          "height": 1125,
+          "position": "50% 50%"
+        },
+        {
+          "slot": "project:1",
+          "src": "/assets/images/gemeos/projeto-quarto-reflecta.webp",
+          "width": 691,
+          "height": 975,
+          "position": "50% 52%"
+        },
+        {
+          "slot": "project:2",
+          "src": "/assets/images/gemeos/final/sala-tv-final.webp",
+          "width": 900,
+          "height": 1125,
+          "position": "40% 45%"
+        },
+        {
+          "slot": "project:3",
+          "src": "/assets/images/gemeos/projeto-sala-integrada.webp",
+          "width": 691,
+          "height": 970,
+          "position": "50% 52%"
+        },
+        {
+          "slot": "cta",
+          "src": "/assets/images/gemeos/painel-iluminacao.webp",
+          "width": 691,
+          "height": 1115,
+          "position": "50% 50%"
+        }
+      ],
+      "environmentChoices": 6,
+      "carouselCards": 8
+    },
+    {
+      "width": 1920,
+      "comparedElements": 325,
+      "structuralDifferences": 0,
+      "overflow": false,
+      "brokenImages": 0,
+      "cls": 0,
+      "portrait": {
+        "faceCovered": false,
+        "torsoCovered": false,
+        "faceInside": true,
+        "position": "50% 0%"
+      },
+      "sourceMapping": [
+        {
+          "slot": "hero",
+          "src": "/assets/images/gemeos/hero-cozinha.webp",
+          "width": 625,
+          "height": 805,
+          "position": "52% 50%"
+        },
+        {
+          "slot": "aboutMain",
+          "src": "/assets/images/gemeos/final/institucional-marcio-final.webp",
+          "width": 900,
+          "height": 1125,
+          "position": "50% 0%"
+        },
+        {
+          "slot": "aboutDetail",
+          "src": "/assets/images/gemeos/projeto-jantar-ripado.webp",
+          "width": 691,
+          "height": 910,
+          "position": "50% 52%"
+        },
+        {
+          "slot": "environment:0",
+          "src": "/assets/images/gemeos/final/cozinha-tratada-final.webp",
+          "width": 900,
+          "height": 1125,
+          "position": "50% 50%"
+        },
+        {
+          "slot": "gallery:0",
+          "src": "/assets/images/gemeos/final/cozinha-tratada-final.webp",
+          "width": 900,
+          "height": 1125,
+          "position": "50% 50%"
+        },
+        {
+          "slot": "gallery:1",
+          "src": "/assets/images/gemeos/final/sala-tv-final.webp",
+          "width": 900,
+          "height": 1125,
+          "position": "40% 45%"
+        },
+        {
+          "slot": "gallery:2",
+          "src": "/assets/images/gemeos/projeto-quarto-reflecta.webp",
+          "width": 691,
+          "height": 975,
+          "position": "50% 52%"
+        },
+        {
+          "slot": "gallery:3",
+          "src": "/assets/images/gemeos/projeto-home-office.webp",
+          "width": 625,
+          "height": 615,
+          "position": "23% 52%"
+        },
+        {
+          "slot": "gallery:4",
+          "src": "/assets/images/gemeos/area-gourmet.webp",
+          "width": 691,
+          "height": 1260,
+          "position": "50% 50%"
+        },
+        {
+          "slot": "gallery:5",
+          "src": "/assets/images/gemeos/final/cristaleira-final.webp",
+          "width": 900,
+          "height": 1125,
+          "position": "35% 50%"
+        },
+        {
+          "slot": "gallery:6",
+          "src": "/assets/images/gemeos/projeto-jantar-ripado.webp",
+          "width": 691,
+          "height": 910,
+          "position": "50% 52%"
+        },
+        {
+          "slot": "gallery:7",
+          "src": "/assets/images/gemeos/final/quarto-infantil-final.webp",
+          "width": 900,
+          "height": 1125,
+          "position": "50% 55%"
+        },
+        {
+          "slot": "commercial",
+          "src": "/assets/images/gemeos/comercial-oab.webp",
+          "width": 691,
+          "height": 830,
+          "position": "50% 50%"
+        },
+        {
+          "slot": "glass",
+          "src": "/assets/images/gemeos/final/cristaleira-final.webp",
+          "width": 900,
+          "height": 1125,
+          "position": "30% 50%"
+        },
+        {
+          "slot": "wood",
+          "src": "/assets/images/gemeos/projeto-jantar-ripado.webp",
+          "width": 691,
+          "height": 910,
+          "position": "50% 52%"
+        },
+        {
+          "slot": "light",
+          "src": "/assets/images/gemeos/painel-iluminacao.webp",
+          "width": 691,
+          "height": 1115,
+          "position": "50% 52%"
+        },
+        {
+          "slot": "process",
+          "src": "/assets/images/gemeos/final/processo-equipe-final.webp",
+          "width": 900,
+          "height": 1125,
+          "position": "50% 60%"
+        },
+        {
+          "slot": "project:0",
+          "src": "/assets/images/gemeos/final/cozinha-tratada-final.webp",
+          "width": 900,
+          "height": 1125,
+          "position": "50% 50%"
+        },
+        {
+          "slot": "project:1",
+          "src": "/assets/images/gemeos/projeto-quarto-reflecta.webp",
+          "width": 691,
+          "height": 975,
+          "position": "50% 52%"
+        },
+        {
+          "slot": "project:2",
+          "src": "/assets/images/gemeos/final/sala-tv-final.webp",
+          "width": 900,
+          "height": 1125,
+          "position": "40% 45%"
+        },
+        {
+          "slot": "project:3",
+          "src": "/assets/images/gemeos/projeto-sala-integrada.webp",
+          "width": 691,
+          "height": 970,
+          "position": "50% 52%"
+        },
+        {
+          "slot": "cta",
+          "src": "/assets/images/gemeos/painel-iluminacao.webp",
+          "width": 691,
+          "height": 1115,
+          "position": "50% 50%"
+        }
+      ],
+      "environmentChoices": 6,
+      "carouselCards": 8
+    }
+  ],
+  "errors": [],
+  "requests": [],
+  "scope": "CSS, palette, scripts and site configuration byte-identical; only image attributes and the expressly allowed Cristaleiras carousel label changed in HTML",
+  "hero": "byte-identical asset/configuration",
+  "provenance": "Six treated WebP files registered as gemeos-reference / ai-assisted / needsOriginal; not camera originals",
+  "carousel": "8 cards, buttons and keyboard passed",
+  "environments": "6 options passed at each width",
+  "mobileMenu": "passed",
+  "reducedMotion": "passed",
+  "htmlFallback": {
+    "matchedSlots": 22,
+    "sourceAndIntrinsicDimensions": "passed",
+    "cropMetadata": "passed"
+  },
+  "assetIntegrity": [
+    {
+      "file": "processo-equipe-final.webp",
+      "bytes": 35500,
+      "sha256": "c955804ca398fdf70461e21101c319fa2ebf81cabcf0502bcbeac85659ea3f0c",
+      "matchesPackage": true
+    },
+    {
+      "file": "institucional-marcio-final.webp",
+      "bytes": 74878,
+      "sha256": "059df7e6b81f1d8d77cf1abd8445c16ec3320a2720b414dbc4cc56a1b869da49",
+      "matchesPackage": true
+    },
+    {
+      "file": "ASSET_MANIFEST.txt",
+      "bytes": 849,
+      "sha256": "39e91b70cd3c73e40ea83b74f4245f7e65a832409d22a4e32d863175be636f68",
+      "matchesPackage": true
+    },
+    {
+      "file": "cozinha-tratada-final.webp",
+      "bytes": 36974,
+      "sha256": "85aa8f5d1a52f30988d8df94884930bd22dde004d8184de6f44949d305de0603",
+      "matchesPackage": true
+    },
+    {
+      "file": "sala-tv-final.webp",
+      "bytes": 63822,
+      "sha256": "85445893a667e73a2c32bff9e1b34f67ac25dd65788af7275106d3960d055527",
+      "matchesPackage": true
+    },
+    {
+      "file": "quarto-infantil-final.webp",
+      "bytes": 70044,
+      "sha256": "50bfa6c945eabe2f617c6a1f5b0932fbacd56dd466dfd8ce13b229cacb336f58",
+      "matchesPackage": true
+    },
+    {
+      "file": "cristaleira-final.webp",
+      "bytes": 70386,
+      "sha256": "b53657fb56432ef1c38e0b137d14025b777f820c9b45d385a2372da3d25b1ecd",
+      "matchesPackage": true
+    }
+  ]
+}

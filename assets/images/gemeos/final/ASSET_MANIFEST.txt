@@ -1,0 +1,14 @@
+GÊMEOS MÓVEIS PLANEJADOS — ASSETS TRATADOS FINAL V1
+
+Mapeamento sugerido:
+- institucional-marcio-final.webp -> seção institucional / Márcio
+- processo-equipe-final.webp -> seção Processo
+- sala-tv-final.webp -> Salas e painéis / carrossel / projeto
+- cristaleira-final.webp -> materialidade / carrossel / apoio
+- quarto-infantil-final.webp -> quarto infantil / carrossel
+- cozinha-tratada-final.webp -> cozinha secundária / carrossel / ambientes; não substituir automaticamente a Hero atual sem comparação visual
+
+Diretriz:
+- preservar layout, paleta Gêmeos V2.1 e composição institucional aprovada
+- não alterar tipografia, geometria, responsividade ou animações nesta rodada
+- registrar internamente que estes arquivos são tratamentos/reconstruções visuais derivados do material de referência, não os originais de câmera
