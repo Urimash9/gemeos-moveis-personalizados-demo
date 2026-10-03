@@ -295,3 +295,6 @@ a:focus-visible,button:focus-visible,.carousel-stage:focus-visible{outline:2px s
 @media(max-width:900px){
  .detail-composition::after{background-image:repeating-linear-gradient(132deg,transparent 0 8px,color-mix(in srgb,var(--accent-amber) 58%,transparent) 8px 10px,transparent 10px 17px)}
 }
+/* BUILD 02.6 — preenchimento do frame e legendas livres das sobreposições. */
+.environment-preview img{inset:0;width:100%}
+.detail-tall figcaption,.detail-wide figcaption{top:16px;bottom:auto}
