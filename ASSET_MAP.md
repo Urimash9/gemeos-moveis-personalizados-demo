@@ -1,37 +1,29 @@
-# Montaggio — Asset Map V1
+# Gêmeos — Curadoria Build 01
 
-Generated/editorial assets. These images are visual references and must NOT be presented as completed Montaggio projects.
+Origem: checkpoint/montaggio-v2.3-base,
+commit d2cf26bc44f1a41b4fe3bc169380700e2ae9e78b.
 
-## Hero
-- `assets/images/hero/cozinha-hero.webp`
+Todos os slots ativos estão em `config/assets.js`, com caminho, alt, dimensões,
+posição do crop e `provisional: true`. As imagens são editoriais/ilustrativas
+herdadas da base; nenhuma representa trabalho executado pela Gêmeos.
 
-## Ambientes
-- Cozinhas: `assets/images/ambientes/cozinha-alt.webp`
-- Closets: `assets/images/ambientes/closet-frontal.webp`
-- Dormitórios: `assets/images/ambientes/dormitorio-painel.webp`
-- Home Offices: `assets/images/ambientes/home-office-executivo.webp`
-- Salas & painéis: `assets/images/ambientes/sala-painel-tv.webp`
+| Slot | Referência provisória | Substituição esperada |
+| --- | --- | --- |
+| hero | cozinha-hero.webp | Cozinha clara com bancada preta; original Gêmeos |
+| aboutMain / aboutDetail | editorial/sobre | Márcio na produção e equipe trabalhando |
+| environments | ambientes/referencias | Cozinhas, salas, quartos, home office, gourmet e comercial |
+| gallery | ambientes/referencias | Referências reais Gêmeos para o carrossel |
+| commercial | home-office-executivo.webp | Recepção/escritório real |
+| glass / wood / light | editorial/materialidade | Detalhes reais de acabamento, materiais e luz |
+| projects | ambientes/referencias | Quatro projetos reais em composição assimétrica |
+| cta | cta-adega.webp | Foto real com boa área para contraste do texto |
 
-## Referências / carrossel 3D
-- Painel amadeirado: `assets/images/referencias/painel-madeira-corredor.webp`
-- Cristaleira iluminada: `assets/images/referencias/cristaleira.webp`
-- Closet canelado: `assets/images/referencias/closet-canelado.webp`
-- Adega planejada: `assets/images/referencias/adega.webp`
-- Home office minimal: `assets/images/referencias/home-office-minimal.webp`
-- Sala de jantar: `assets/images/referencias/sala-jantar.webp`
-- Detalhe de marcenaria: `assets/images/referencias/detalhe-marcenaria.webp`
+Não utilizar a fachada na hero. Não alterar artificialmente os móveis nas
+fotografias reais. Remover a indicação provisória de um slot apenas quando a
+proveniência da fotografia estiver confirmada.
 
-## Real project sections
-Do not use the generated/editorial assets above in sections labeled as completed/real work.
-For Sobre, Projeto em Destaque, Materialidade and Projetos Realizados, preserve selected real Montaggio photography from the current implementation, but migrate it out of base64/chunks into standalone optimized image files under:
-- `assets/images/reais/sobre/`
-- `assets/images/reais/destaque/`
-- `assets/images/reais/materialidade/`
-- `assets/images/reais/projetos/`
+O diretório `assets/images/reais/` contém fotografias Montaggio copiadas como
+parte da árvore funcional original. Nenhum componente ativo utiliza esses arquivos.
 
-## Rules
-- No visible repeated generated image across Hero, Ambientes and Referências.
-- Preserve current V2.3 layout and section order.
-- Optimize real extracted images to WebP.
-- Use responsive `object-fit: cover` and per-slot `object-position` instead of distorting assets.
-- Keep image filenames ASCII/kebab-case.
+Logo: nenhum arquivo oficial GM foi localizado. `config/site.js` tem `logo: null`;
+o nome em texto é um fallback, não uma identidade nova.

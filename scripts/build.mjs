@@ -1,6 +1,7 @@
 import { readFile, readdir, stat, mkdir, cp, rm } from 'node:fs/promises';
 import { resolve, join } from 'node:path';
 import { Script } from 'node:vm';
+import { execFileSync } from 'node:child_process';
 
 const root = resolve(import.meta.dirname, '..');
 const html = await readFile(join(root, 'index.html'), 'utf8');
@@ -12,6 +13,10 @@ for (const source of [html, base]) {
 const files = ['index.html', 'approved', 'assets'];
 for (const folder of ['styles', 'config']) {
   try { await stat(join(root, folder)); files.push(folder); } catch (e) { if (e.code !== 'ENOENT') throw e; }
+}
+for (const file of ['scripts/interactions.js', 'config/site.js', 'config/assets.js']) {
+  try { await stat(join(root, file)); execFileSync(process.execPath, ['--check', join(root, file)]); }
+  catch (e) { if (e.code !== 'ENOENT') throw e; }
 }
 const assetSources = [html];
 for (const file of ['config/site.js', 'config/assets.js']) {

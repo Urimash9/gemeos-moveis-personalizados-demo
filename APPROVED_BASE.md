@@ -1,5 +1,10 @@
 # Montaggio — Base visual aprovada
 
+> Documento histórico copiado do checkpoint Montaggio V2.3. Neste repositório,
+> a implementação ativa é a adaptação Gêmeos em `index.html`, `styles/` e
+> `scripts/`. Os chunks em `approved/` preservam a origem; não devem ser alterados.
+> As regras abaixo descrevem a base, não impõem o branding Montaggio à Gêmeos.
+
 Esta branch/main deve ser tratada como a referência de implementação da Montaggio.
 
 ## Regra de trabalho
