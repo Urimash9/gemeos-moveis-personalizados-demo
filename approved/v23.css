@@ -1,0 +1,159 @@
+/* MONTAGGIO V2.3 — lapidação da base aprovada, sem redesenhar o mobile V2. */
+.reveal,.reveal-media{opacity:1;transform:none;clip-path:inset(0);transition:none}
+.p5{display:none!important}
+
+/* A base tipográfica ganha densidade sem trocar fonte, hierarquia ou linguagem. */
+h1,h2{font-weight:390;text-wrap:balance}
+.intro-copy>p:not(.eyebrow),.environment-copy>p:not(.eyebrow),.featured-copy>p:not(.eyebrow),.details-intro>p:not(.eyebrow),.portfolio-head>p{color:#595750}
+.section-dark .eyebrow{color:rgba(255,255,255,.66)}
+.section-dark p{color:rgba(255,255,255,.58)}
+
+@media (min-width:561px) and (max-width:900px){
+  .portfolio-flow{height:1390px}
+  .portfolio-more{position:absolute;right:5%;bottom:0;display:flex;align-items:center;justify-content:space-between;width:310px;padding:17px 0 12px;border-top:1px solid var(--line-l);border-bottom:1px solid var(--line-l);font-size:13px;font-weight:520}
+  .portfolio-more i{font-style:normal;font-size:18px}
+}
+
+@media (min-width:901px){
+  :root{--container:1320px;--section:116px}
+  h2{font-size:clamp(56px,4.55vw,74px);line-height:.98;letter-spacing:-.05em}
+  .eyebrow{font-size:12px;font-weight:750;color:#57544e}
+
+  /* Hero mais horizontal; texto e fotografia trabalham como um único plano. */
+  .hero{min-height:720px;height:min(84svh,830px);max-height:830px}
+  .hero-grid{grid-template-columns:5.55fr 6.45fr}
+  .hero-copy{max-width:790px;padding-top:26px}
+  .hero-copy h1{font-size:clamp(80px,6.25vw,112px);font-weight:390;line-height:.9;max-width:780px;margin-bottom:28px}
+  .hero-copy>p:not(.eyebrow){font-size:clamp(19px,1.4vw,23px);line-height:1.5;font-weight:410;color:rgba(255,255,255,.76);max-width:570px}
+  .hero-media{width:68vw}
+  .hero-image img{object-position:center 53%}
+  .hero-index{margin-top:40px}
+  .hero-line-b,.hero-chip{display:none}
+
+  /* Sobre: mais presença visual e linhas ocupando os vazios da composição. */
+  .intro{padding:106px 0 110px}
+  .intro-layout{grid-template-columns:5.05fr .45fr 6.5fr;min-height:650px}
+  .intro-visual{height:650px;margin-left:-12px}
+  .intro-shape-main{width:87%;height:93%}
+  .intro-shape-small{width:48%;height:44%;right:-2%}
+  .intro-copy h2{font-size:clamp(55px,4.55vw,73px)}
+
+  /* Ambientes: lista e fotografia se aproximam e leem como uma composição. */
+  .environment-stage{padding:98px 0 102px}
+  .environment-layout{grid-template-columns:3.7fr 2.8fr 5.5fr;gap:28px;min-height:630px}
+  .environment-copy h2{font-size:clamp(56px,4.5vw,72px)}
+  .environment-copy>p:not(.eyebrow){font-size:17px;line-height:1.7;font-weight:410}
+  .environment-list{transform:translateX(6px)}
+  .environment-item{padding:19px 0}
+  .environment-item strong{font-size:24px;font-weight:520}
+  .environment-item span{font-size:10px;color:#706c65}
+  .environment-preview{height:620px;transform:none}
+  .environment-preview img{inset:0 0 0 2%;width:98%}
+
+  /* Projeto em destaque: greige contínuo e sobreposição editorial, sem caixa branca. */
+  .featured{grid-template-columns:minmax(0,65%) minmax(0,35%);min-height:760px;background:#e6dbcd}
+  .featured-visual{min-height:760px}
+  .featured-copy{margin-left:-38px;background:#e6dbcd;padding:86px 7vw 86px 96px;clip-path:polygon(8% 0,100% 0,100% 100%,0 100%,0 10%)}
+  .featured-copy h2{font-size:clamp(52px,4.2vw,70px)}
+  .featured-copy>p:not(.eyebrow){font-size:16px;line-height:1.75;font-weight:410}
+  .featured-copy:before{left:44px;width:82px}
+
+  /* Materialidade e Processo ganham escala sem abandonar a assimetria aprovada. */
+  .details{padding:104px 0 110px}
+  .details-intro{margin-bottom:54px}
+  .detail-composition{height:710px}
+  .detail-tall{width:38%;height:93%}
+  .detail-wide{left:40%;width:60%;height:48%}
+  .detail-small{left:48%;top:51%;width:32%;height:49%}
+  .detail-note{right:-2.5%;width:17%;max-width:205px}
+  .process{padding:104px 0 108px}
+  .process-grid{grid-template-columns:4.9fr .65fr 6.45fr}
+  .process-copy{padding-top:42px}
+  .process-copy h2{font-size:clamp(55px,4.55vw,73px)}
+  .step{padding:25px 0}
+  .step strong{font-size:22px;font-weight:500}
+  .step p{font-size:14px;color:rgba(255,255,255,.56)}
+
+  /* Quatro imagens aprovadas e CTA incorporado ao fluxo, sem área morta. */
+  .portfolio{padding:106px 0 86px}
+  .portfolio-head{margin-bottom:50px}
+  .portfolio-flow{height:1080px}
+  .p1{width:58%;height:480px}
+  .p2{top:54px;width:35%;height:555px}
+  .p3{left:6%;top:570px;width:32%;height:420px}
+  .p4{left:42%;top:636px;width:55%;height:360px}
+  .portfolio-more{bottom:0}
+
+  /* A foto de closet veio de material social; o zoom lateral elimina os ícones da captura sem alterar o projeto real. */
+  .p1 img[src$="projeto-02.webp"]{object-position:left center;transform:scale(1.12);transform-origin:left center}
+  .p1:hover img[src$="projeto-02.webp"]{transform:scale(1.14)}
+}
+
+@media (min-width:901px) and (max-width:1100px){
+  .featured{grid-template-columns:minmax(0,63%) minmax(0,37%)}
+  .featured-copy{margin-left:-24px;padding:74px 42px 74px 68px;clip-path:polygon(7% 0,100% 0,100% 100%,0 100%,0 9%)}
+  .featured-copy:before{left:30px;width:64px}
+}
+
+@media (min-width:1700px){
+  :root{--container:1460px}
+  .hero-grid{grid-template-columns:5.35fr 6.65fr}
+  .hero-media{width:67vw}
+  .environment-preview{height:630px}
+  .detail-composition{height:750px}
+}
+
+/* Mobile V2 permanece intacto: imagem full-bleed sem o antigo selo geométrico. */
+@media (max-width:560px){
+  h1,h2{font-weight:390}
+  h2{line-height:1.01;letter-spacing:-.045em}
+  .eyebrow{font-weight:750;color:#5d5953}
+  .intro-copy>p:not(.eyebrow),.environment-copy>p:not(.eyebrow),.featured-copy>p:not(.eyebrow),.details-intro>p:not(.eyebrow),.portfolio-head>p{color:#5b5852}
+  .hero-media{left:calc(-1 * var(--gutter));right:auto;width:100vw}
+  .hero-copy>p:not(.eyebrow){color:rgba(255,255,255,.74);font-weight:410}
+  .hero-line-b,.hero-chip{display:none}
+  /* O último recorte termina em 890px; o container agora o contém antes de Processo. */
+  .detail-composition{height:910px}
+  .details{padding-bottom:82px}
+}
+
+/* Curadoria V1: crops por slot, sem alterar frames ou composição. */
+.hero-image img{object-fit:cover;object-position:52% 50%}
+.environment-preview img{object-fit:cover}
+.environment-preview img[src$="cozinha-alt.webp"]{object-position:54% center}
+.environment-preview img[src$="closet-frontal.webp"]{object-position:center 44%}
+.environment-preview img[src$="dormitorio-painel.webp"]{object-position:center 42%}
+.environment-preview img[src$="home-office-executivo.webp"]{object-position:center 40%}
+.environment-preview img[src$="sala-painel-tv.webp"]{object-position:56% center}
+.spatial-card img,.intro-shape img,.featured-visual img,.detail-composition img,.project img,.final-cta>img{object-fit:cover}
+.spatial-card img[src$="painel-madeira-corredor.webp"]{object-position:center 46%}
+.spatial-card img[src$="cristaleira.webp"]{object-position:center 45%}
+.spatial-card img[src$="closet-canelado.webp"]{object-position:center 42%}
+.spatial-card img[src$="adega.webp"]{object-position:center 44%}
+.spatial-card img[src$="home-office-minimal.webp"]{object-position:center 43%}
+.spatial-card img[src$="sala-jantar.webp"]{object-position:55% center}
+.spatial-card img[src$="detalhe-marcenaria.webp"]{object-position:center 48%}
+
+/* Curadoria final: prova real nas áreas de execução e imagens editoriais nas áreas conceituais. */
+.intro-shape-main img[src$="sobre-principal.webp"]{object-position:center 48%}
+.intro-shape-small img[src$="sobre-secundaria.webp"]{object-position:center 46%}
+.featured-visual img[src$="projeto-destaque.webp"]{object-position:center 57%}
+.detail-tall img[src$="vidro-transparencia.webp"]{object-position:center 48%}
+.detail-wide img[src$="madeira-textura.webp"]{object-position:center 52%}
+.detail-small img[src$="luz-integrada.webp"]{object-position:center 47%}
+.p2 img[src$="projeto-01.webp"]{object-position:center 45%}
+.p3 img[src$="projeto-03.webp"]{object-position:center 46%}
+.p4 img[src$="projeto-04.webp"]{object-position:center 52%}
+.final-cta>img[src$="cta-adega.webp"]{object-position:center 52%}
+
+@media(max-width:560px){
+  .hero-image img{object-position:58% center}
+  .environment-preview img[src$="cozinha-alt.webp"]{object-position:60% center}
+  .environment-preview img[src$="sala-painel-tv.webp"]{object-position:62% center}
+  .featured-visual img[src$="projeto-destaque.webp"]{object-position:center 55%}
+  .p1 img[src$="projeto-02.webp"]{object-position:center 50%;transform:none}
+  .p2 img[src$="projeto-01.webp"]{object-position:center 45%}
+  .p3 img[src$="projeto-03.webp"]{object-position:center 44%}
+  .p4 img[src$="projeto-04.webp"]{object-position:center 50%}
+  .final-cta>img[src$="cta-adega.webp"]{object-position:54% center}
+}

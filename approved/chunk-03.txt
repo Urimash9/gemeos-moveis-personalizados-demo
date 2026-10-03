@@ -1,0 +1,184 @@
+om:18px}}
+
+@media(max-width:560px){h2{font-size:36px}.hero-copy h1{font-size:43px}.intro-visual{height:520px}.intro-shape-main{width:92%;height:82%}.intro-shape-small{width:52%;height:40%}.experience{width:145px;height:128px;right:0;top:8%;padding:22px}.experience strong{font-size:40px}.environment-layout{display:block}.environment-copy{margin-bottom:35px}.environment-list{margin-bottom:40px}.environment-item strong{font-size:18px}.environment-preview{height:480px}.spatial-gallery{min-height:1000px}.carousel-wrap{height:540px;margin-top:35px}.carousel-stage{height:500px}.spatial-card{width:270px;height:395px;margin-left:-135px;margin-top:-197px}.carousel-arrow{top:auto;bottom:2px}.carousel-arrow.prev{left:calc(50% - 58px)}.carousel-arrow.next{right:calc(50% - 58px)}.carousel-footer{display:block;padding-top:22px}.carousel-active-copy{margin:22px 0}.carousel-footer .btn{width:100%}.carousel-progress span{width:90px}.featured-visual{height:520px}.featured-label{left:4%;bottom:6%;padding:14px 16px}.details{padding-bottom:120px}.detail-composition{height:830px}.detail-tall{left:0;top:0;width:76%;height:430px}.detail-wide{left:20%;top:380px;width:80%;height:310px}.detail-small{left:0;top:640px;width:53%;height:250px}.portfolio{padding-bottom:120px}.portfolio-flow{height:auto;display:flex;flex-direction:column;gap:48px}.project,.p1,.p2,.p3,.p4,.p5{position:relative;left:auto;right:auto;top:auto;width:100%;height:auto;clip-path:none}.project img{height:470px}.p2 img,.p4 img{height:420px}.testimonial blockquote{font-size:22px}.final-content h2{font-size:39px}.footer-top{display:block}.footer-top>div{margin-bottom:45px}.footer-brand{margin-bottom:65px!important}.footer-bottom{display:block;line-height:1.9}}
+
+
+/* ============================================================
+   V2.1 — DESKTOP REFINEMENT
+   Mobile V2 remains the visual master. These overrides only
+   rebalance the desktop composition and preserve that language.
+   ============================================================ */
+@media (min-width:901px){
+  :root{--container:1280px}
+
+  /* HERO — more editorial negative space, less "split screen" */
+  .hero{min-height:850px;height:95svh}
+  .hero-grid{grid-template-columns:4.7fr 7.3fr}
+  .hero-copy{max-width:590px;padding-top:42px}
+  .hero-copy h1{max-width:590px}
+  .hero-media{width:69vw;right:calc((100vw - min(var(--container),calc(100vw - var(--gutter)*2)))/-2)}
+  .hero-image{clip-path:polygon(13% 0,100% 0,100% 100%,3% 100%,0 91%,0 23%)}
+  .hero-line-a{left:8.5%;top:11%;width:28%;height:64%;transform:skewY(-7deg)}
+  .hero-line-b{right:7%;bottom:7%;width:19%;height:28%}
+  .hero-slice{height:100px;clip-path:polygon(0 80%,54% 40%,100% 0,100% 100%,0 100%)}
+
+  /* ABOUT — image composition gets a little more architectural weight */
+  .intro-layout{grid-template-columns:4.7fr 1.1fr 6.2fr;min-height:760px}
+  .intro-visual{height:740px}
+  .intro-shape-main{width:84%;height:91%;clip-path:polygon(0 0,100% 0,100% 81%,87% 100%,0 100%)}
+  .intro-shape-small{right:-1%;bottom:-1%;width:46%;height:43%;border-width:14px}
+  .experience{right:4%;top:10%;width:178px;height:154px}
+
+  /* ENVIRONMENTS — use the full desktop width instead of leaving a narrow preview */
+  .environment-stage{padding:155px 0 165px}
+  .environment-layout{grid-template-columns:3.55fr 2.55fr 5.9fr;gap:48px;min-height:770px}
+  .environment-copy{padding-top:15px}
+  .environment-list{padding-top:26px}
+  .environment-preview{height:655px;transform:translateX(12px)}
+  .environment-preview img{inset:0 0 0 5%;width:95%;clip-path:polygon(0 10%,10% 0,100% 0,100% 100%,0 100%)}
+  .preview-outline{left:-1%;top:12%;width:58%;height:74%;transform:translate(-18px,20px)}
+
+  /* SPATIAL CAROUSEL — deeper book/page perspective */
+  .spatial-gallery{min-height:1160px;padding-top:150px}
+  .spatial-head{grid-template-columns:7.3fr 4.1fr;column-gap:80px}
+  .carousel-wrap{height:690px;margin-top:42px;max-width:1600px}
+  .carousel-stage{width:min(1240px,calc(100vw - 150px));height:650px;perspective:1850px}
+  .spatial-card{width:404px;height:540px;margin-left:-202px;margin-top:-270px;box-shadow:0 42px 90px rgba(0,0,0,.42)}
+  .carousel-arrow.prev{left:42px}.carousel-arrow.next{right:42px}
+  .carousel-footer{grid-template-columns:1.1fr 2.15fr auto;gap:55px;padding-top:31px}
+
+  /* FEATURED — overlap the copy plane into the image to avoid a boxed 62/38 split */
+  .featured{grid-template-columns:minmax(0,66%) minmax(390px,34%);min-height:880px;overflow:hidden}
+  .featured-visual{min-height:880px;clip-path:polygon(0 0,100% 0,90% 100%,0 100%)}
+  .featured-copy{position:relative;z-index:4;align-self:center;margin-left:-78px;background:var(--light);padding:88px 8vw 88px 104px;clip-path:polygon(13% 0,100% 0,100% 100%,0 100%,0 13%)}
+  .featured-copy:before{content:"";position:absolute;left:54px;top:52px;width:95px;height:1px;background:var(--red);opacity:.55;transform:rotate(-32deg);transform-origin:left}
+  .featured-copy>p:not(.eyebrow){max-width:430px}
+  .featured-cut{right:8%;top:12%;width:22%;height:37%}
+
+  /* MATERIALITY — stronger offset without changing mobile */
+  .details{padding-top:155px;padding-bottom:165px}
+  .details-intro{margin-bottom:86px;grid-template-columns:4.2fr 4.7fr 3.1fr}
+  .detail-composition{height:800px}
+  .detail-tall{width:36%;height:91%}
+  .detail-wide{left:39.5%;width:60.5%;height:46%}
+  .detail-small{left:49%;top:51%;width:30%;height:49%}
+  .detail-note{right:0;bottom:5%;width:18%}
+
+  /* PROCESS — wider text rhythm mirrors the mobile breathing room */
+  .process{padding:150px 0 155px}
+  .process-grid{grid-template-columns:4.65fr 1.2fr 6.15fr}
+  .step{padding:30px 0;grid-template-columns:82px 1fr}
+
+  /* PORTFOLIO — retain asymmetry while removing dead desktop space */
+  .portfolio{padding-top:155px;padding-bottom:150px}
+  .portfolio-head{grid-template-columns:7.2fr 4fr;margin-bottom:82px}
+  .portfolio-flow{height:1290px}
+  .p1{left:0;top:0;width:58%;height:510px}
+  .p2{right:0;top:72px;width:33%;height:585px}
+  .p3{left:7%;top:590px;width:31%;height:480px}
+  .p4{left:43%;top:690px;width:54%;height:390px}
+  .p5{right:10%;top:1125px;width:36%;height:300px}
+
+  /* TESTIMONIAL / CTA — slightly stronger desktop cadence */
+  .testimonial{padding:132px 0}
+  .testimonial-layout{grid-template-columns:4.8fr 1.25fr 5.95fr}
+  .testimonial blockquote{font-size:31px}
+  .final-cta{height:820px}
+}
+
+</style>
+
+<style id="v22-overrides">
+/* MONTAGGIO V2.2 — refinamento orientado pela referência mobile aprovada */
+@media (min-width:901px){
+  :root{--section:124px}
+  h1{font-size:clamp(70px,6.05vw,96px);line-height:.92;letter-spacing:-.061em}
+  h2{font-size:clamp(50px,4.65vw,68px);line-height:1.01;letter-spacing:-.054em}
+  .eyebrow{font-size:11px;letter-spacing:.24em;margin-bottom:28px}
+  .hero{min-height:780px;height:94svh}
+  .hero-grid{grid-template-columns:5.25fr 6.75fr}
+  .hero-copy{max-width:760px;padding-top:38px}
+  .hero-copy>p:not(.eyebrow){font-size:19px;line-height:1.62;max-width:540px;margin-bottom:34px}
+  .hero-actions{gap:34px}
+  .hero-index{margin-top:52px}
+  .hero-media{width:69vw}
+  .hero-line-b{right:6.5%;bottom:7.5%;width:19%;height:28%;border:0;background:
+      linear-gradient(rgba(164,32,34,.72),rgba(164,32,34,.72)) 0 0/100% 1px no-repeat,
+      linear-gradient(rgba(164,32,34,.72),rgba(164,32,34,.72)) 0 0/1px 100% no-repeat,
+      linear-gradient(rgba(164,32,34,.72),rgba(164,32,34,.72)) 100% 0/1px 79% no-repeat,
+      linear-gradient(166deg,transparent 49.4%,rgba(164,32,34,.72) 49.6%,rgba(164,32,34,.72) 50.3%,transparent 50.5%) 0 100%/100% 24% no-repeat}
+  .hero-chip{right:6.6%;bottom:8.5%}
+  .intro{padding:112px 0 116px}
+  .intro-layout{grid-template-columns:5.4fr .6fr 6fr;min-height:640px}
+  .intro-copy{max-width:590px}
+  .intro-copy>p:not(.eyebrow){font-size:17px;line-height:1.72;max-width:515px}
+  .intro-visual{height:620px}
+  .intro-visual:before{content:"";position:absolute;z-index:1;left:-38px;bottom:22px;width:44%;height:38%;border-left:1px solid rgba(164,32,34,.62);border-bottom:1px solid rgba(164,32,34,.62);pointer-events:none}
+  .intro-visual:after{content:"";position:absolute;z-index:1;right:-18px;top:6%;width:25%;height:33%;border-right:1px solid rgba(188,154,106,.55);border-top:1px solid rgba(188,154,106,.55);pointer-events:none}
+  .experience{right:1%;top:9%}
+  .environment-stage{padding:112px 0 118px}
+  .environment-layout{grid-template-columns:4.2fr 3.1fr 4.7fr;gap:46px;min-height:660px}
+  .environment-copy>p:not(.eyebrow){font-size:16px;max-width:390px}
+  .environment-item{padding:17px 0}
+  .environment-item strong{font-size:22px}
+  .environment-preview{height:560px}
+  .spatial-gallery{padding:116px 0 88px;min-height:1010px}
+  .spatial-head h2{font-size:clamp(48px,4.35vw,64px)}
+  .carousel-wrap{height:600px;margin-top:28px}
+  .carousel-stage{height:560px}
+  .spatial-card{width:390px;height:520px;margin-left:-195px;margin-top:-260px}
+  .card-surface>span{display:none}
+  .spatial-card .card-surface{grid-template-columns:1fr;padding-left:24px}
+  .carousel-footer{padding-top:22px}
+  .featured{min-height:760px}
+  .featured-copy{padding-top:86px;padding-bottom:86px}
+  .featured-copy h2{font-size:clamp(48px,4.35vw,64px)}
+  .details{padding-top:100px;padding-bottom:105px}
+  .details-intro{margin-bottom:58px}
+  .detail-composition{height:680px}
+  .detail-composition:before{content:"";position:absolute;z-index:0;left:38%;bottom:8%;width:23%;height:37%;border-left:1px solid rgba(164,32,34,.62);border-bottom:1px solid rgba(164,32,34,.62);pointer-events:none}
+  .detail-composition:after{content:"";position:absolute;z-index:0;right:2.5%;top:31%;width:100px;height:120px;background:repeating-linear-gradient(132deg,transparent 0 10px,rgba(188,154,106,.58) 10px 12px,transparent 12px 21px);opacity:.75;pointer-events:none}
+  .detail-note{right:2%;bottom:12%;max-width:210px}
+  .process{padding:112px 0}
+  .portfolio{padding:112px 0 92px}
+  .portfolio-head{margin-bottom:52px}
+  .portfolio-flow{height:1120px}
+  .p1{width:56%;height:465px}
+  .p2{right:0;top:62px;width:34%;height:560px}
+  .p3{left:7%;top:585px;width:30%;height:420px}
+  .p4{left:43%;top:650px;width:52%;height:345px}
+  .p5{display:none}
+  .portfolio-more{position:absolute;right:5%;bottom:8px;display:flex;align-items:center;justify-content:space-between;width:310px;padding:17px 0 12px;border-top:1px solid var(--line-l);border-bottom:1px solid var(--line-l);font-size:13px;font-weight:520;letter-spacing:.01em}
+  .portfolio-more i{font-style:normal;font-size:18px;transition:.3s var(--ease)}
+  .portfolio-more:hover i{transform:translate(4px,-4px)}
+  .testimonial{padding-top:92px;padding-bottom:96px}
+}
+
+/* MOBILE — preservar a identidade V2 aprovada; somente microajustes */
+@media (max-width:560px){
+  :root{--section:74px}
+  .hero{min-height:680px;height:88svh}
+  .hero-copy{bottom:54px}
+  .hero-copy h1{font-size:43px}
+  .hero-copy>p:not(.eyebrow){margin-bottom:24px}
+  .hero-actions{flex-direction:row;align-items:center;gap:14px;flex-wrap:nowrap}
+  .hero-actions .btn{min-height:44px;padding:0 15px;font-size:10px;white-space:nowrap}
+  .hero-actions .text-link{font-size:10px;white-space:nowrap;padding-bottom:4px}
+  .hero-index{margin-top:26px}
+  .intro{padding:74px 0 70px}
+  .intro-copy{margin-bottom:42px}
+  .intro-visual{height:500px}
+  .intro-visual:after{content:"";position:absolute;z-index:1;left:0;bottom:3%;width:42%;height:26%;border-left:1px solid rgba(164,32,34,.62);border-bottom:1px solid rgba(164,32,34,.62);pointer-events:none}
+  .environment-stage{padding:72px 0 76px}
+  .environment-copy{margin-bottom:28px}
+  .environment-list{margin-bottom:30px}
+  .spatial-gallery{padding:76px 0 70px;min-height:900px}
+  .spatial-head>p{margin-top:16px}
+  .carousel-wrap{height:510px;margin-top:24px}
+  .card-surface>span{display:none}
+  .spatial-card .card-surface{grid-template-columns:1fr;padding-left:19px}
+  .featured-visual{height:500px}
+  .featured-copy{padding:58px 24px 64px}
+  .details{padding-top:72px;padding-bottom:76px}
+  .details-intro{margin-bottom:42px}
+  .detail-compo

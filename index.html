@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Montaggio Ambientes Planejados — Base Aprovada</title>
+<style>
+html,body{margin:0;min-height:100%;background:#171918;color:#fff;font-family:Arial,sans-serif}
+#loading{min-height:100vh;display:grid;place-items:center;font-size:14px;letter-spacing:.12em;text-transform:uppercase;opacity:.65}
+</style>
+</head>
+<body>
+<div id="loading">Carregando Montaggio…</div>
+<script>
+(async()=>{
+  const curated={
+    hero:'/assets/images/hero/cozinha-hero.webp',
+    environments:[
+      '/assets/images/ambientes/cozinha-alt.webp',
+      '/assets/images/ambientes/closet-frontal.webp',
+      '/assets/images/ambientes/dormitorio-painel.webp',
+      '/assets/images/ambientes/home-office-executivo.webp',
+      '/assets/images/ambientes/sala-painel-tv.webp'
+    ],
+    references:[
+      {src:'/assets/images/referencias/painel-madeira-corredor.webp',title:'Painel amadeirado',sub:'Circulação · painel e iluminação',message:'painel%20para%20TV%20planejado',alt:'Referência editorial de painel amadeirado',w:1122,h:1402},
+      {src:'/assets/images/referencias/cristaleira.webp',title:'Cristaleira iluminada',sub:'Exposição · vidro e iluminação',message:'cristaleira%20iluminada',alt:'Referência editorial de cristaleira iluminada',w:1122,h:1402},
+      {src:'/assets/images/referencias/closet-canelado.webp',title:'Closet planejado',sub:'Closet · composição canelada',message:'closet%20planejado',alt:'Referência editorial de closet canelado',w:1122,h:1402},
+      {src:'/assets/images/referencias/adega.webp',title:'Adega planejada',sub:'Adega · armazenamento e presença',message:'adega%20planejada',alt:'Referência editorial de adega planejada',w:1122,h:1402},
+      {src:'/assets/images/referencias/home-office-minimal.webp',title:'Home office',sub:'Trabalho · organização minimalista',message:'home%20office%20minimalista',alt:'Referência editorial de home office minimalista',w:1122,h:1402},
+      {src:'/assets/images/referencias/sala-jantar.webp',title:'Sala de jantar',sub:'Convívio · integração e matéria',message:'sala%20de%20jantar%20planejada',alt:'Referência editorial de sala de jantar',w:1448,h:1086},
+      {src:'/assets/images/referencias/detalhe-marcenaria.webp',title:'Detalhe de marcenaria',sub:'Precisão · matéria e acabamento',message:'detalhe%20de%20marcenaria',alt:'Referência editorial de detalhe de marcenaria',w:1122,h:1402}
+    ]
+  };
+
+  const finalAssets={
+    about:[
+      {src:'/assets/images/editorial/sobre/sobre-principal.webp',alt:'Composição editorial de marcenaria e iluminação',w:840,h:1200},
+      {src:'/assets/images/editorial/sobre/sobre-secundaria.webp',alt:'Composição editorial de home office planejado',w:840,h:1200}
+    ],
+    featured:{src:'/assets/images/reais/destaque/projeto-destaque.webp',alt:'Projeto real de cozinha executado pela Montaggio',w:987,h:1200},
+    material:[
+      {src:'/assets/images/editorial/materialidade/vidro-transparencia.webp',alt:'Detalhe editorial de vidro e transparência',w:840,h:1200},
+      {src:'/assets/images/editorial/materialidade/madeira-textura.webp',alt:'Detalhe editorial de madeira e textura',w:1200,h:840},
+      {src:'/assets/images/editorial/materialidade/luz-integrada.webp',alt:'Detalhe editorial de iluminação integrada',w:840,h:1200}
+    ],
+    projects:[
+      {src:'/assets/images/reais/projetos/projeto-02.webp',alt:'Closet executado pela Montaggio',title:'Closet',category:'Residencial',w:1200,h:964},
+      {src:'/assets/images/reais/projetos/projeto-01.webp',alt:'Home office executado pela Montaggio',title:'Home Office',category:'Residencial',w:987,h:1200},
+      {src:'/assets/images/reais/projetos/projeto-03.webp',alt:'Cristaleira executada pela Montaggio',title:'Cristaleira',category:'Residencial',w:987,h:1200},
+      {src:'/assets/images/reais/projetos/projeto-04.webp',alt:'Painel integrado executado pela Montaggio',title:'Painel integrado',category:'Residencial',w:1200,h:902}
+    ],
+    cta:{src:'/assets/images/editorial/contato/cta-adega.webp',alt:'Referência editorial de adega planejada com iluminação',w:1200,h:675}
+  };
+
+  const setImage=(img,data,{lazy=true}={})=>{
+    if(!img||!data)return;
+    img.src=data.src;
+    img.alt=data.alt||'';
+    img.width=data.w;
+    img.height=data.h;
+    img.decoding='async';
+    if(lazy)img.loading='lazy'; else img.removeAttribute('loading');
+  };
+
+  const applyCuratedAssets=(doc)=>{
+    const preload=doc.createElement('link');
+    preload.rel='preload'; preload.as='image'; preload.href=curated.hero; preload.type='image/webp'; preload.setAttribute('fetchpriority','high');
+    doc.head.appendChild(preload);
+
+    const hero=doc.querySelector('.hero-image img');
+    if(hero){hero.src=curated.hero;hero.alt='';hero.width=1672;hero.height=941;hero.decoding='async';hero.setAttribute('fetchpriority','high');hero.removeAttribute('loading');}
+
+    const environmentButtons=[...doc.querySelectorAll('.environment-item')];
+    environmentButtons.slice(0,curated.environments.length).forEach((btn,i)=>btn.dataset.img=curated.environments[i]);
+    const environmentPreview=doc.getElementById('environmentPreview');
+    if(environmentPreview){environmentPreview.src=curated.environments[0];environmentPreview.width=1448;environmentPreview.height=1086;environmentPreview.decoding='async';environmentPreview.loading='lazy';}
+
+    const spatialCopy=doc.querySelector('.spatial-head > p');
+    if(spatialCopy) spatialCopy.textContent='Explore referências conceituais para o seu ambiente. Cada imagem é um ponto de partida: medidas, acabamentos e composição são redesenhados para cada espaço.';
+
+    const cards=[...doc.querySelectorAll('.spatial-card')];
+    cards.slice(0,curated.references.length).forEach((card,i)=>{
+      const data=curated.references[i];
+      card.dataset.title=data.title;
+      card.dataset.sub=data.sub;
+      card.dataset.message=data.message;
+      card.dataset.index=String(i);
+      setImage(card.querySelector('img'),data);
+      const number=card.querySelector('.card-surface span');
+      if(number) number.textContent=String(i+1).padStart(2,'0');
+      const title=card.querySelector('.card-surface strong');
+      if(title) title.textContent=data.title;
+    });
+
+    const activeTitle=doc.getElementById('activeTitle');
+    const activeSub=doc.getElementById('activeSub');
+    const activeBudget=doc.getElementById('activeBudget');
+    if(activeTitle) activeTitle.textContent=curated.references[0].title;
+    if(activeSub) activeSub.textContent=curated.references[0].sub;
+    if(activeBudget) activeBudget.href='https://wa.me/5517997674604?text=Olá%20Montaggio!%20Vi%20a%20referência%20de%20painel%20para%20TV%20planejado%20e%20gostaria%20de%20um%20orçamento.';
+
+    setImage(doc.querySelector('.intro-shape-main img'),finalAssets.about[0]);
+    setImage(doc.querySelector('.intro-shape-small img'),finalAssets.about[1]);
+    setImage(doc.querySelector('.featured-visual img'),finalAssets.featured);
+
+    [doc.querySelector('.detail-tall img'),doc.querySelector('.detail-wide img'),doc.querySelector('.detail-small img')]
+      .forEach((img,i)=>setImage(img,finalAssets.material[i]));
+
+    ['.project.p1','.project.p2','.project.p3','.project.p4'].forEach((selector,i)=>{
+      const figure=doc.querySelector(selector);
+      const data=finalAssets.projects[i];
+      if(!figure||!data)return;
+      setImage(figure.querySelector('img'),data);
+      const title=figure.querySelector('figcaption strong');
+      const category=figure.querySelector('figcaption span');
+      if(title)title.textContent=data.title;
+      if(category)category.textContent=data.category;
+    });
+
+    setImage(doc.querySelector('.final-cta > img'),finalAssets.cta);
+
+    /* Lapidação final solicitada: retirar numerações decorativas sem alterar a composição. */
+    const heroIndex=doc.querySelector('.hero-index b');
+    if(heroIndex) heroIndex.remove();
+
+    const featuredLabel=doc.querySelector('.featured-label b');
+    if(featuredLabel) featuredLabel.textContent='PROJETO';
+
+    doc.querySelectorAll('.detail-composition figcaption').forEach(caption=>caption.remove());
+
+    /* Avaliações públicas fornecidas pelo cliente. */
+    const testimonialLayout=doc.querySelector('.testimonial-layout');
+    if(testimonialLayout){
+      testimonialLayout.innerHTML=`
+        <div class="testimonial-heading">
+          <p class="eyebrow light"><span></span>Experiências</p>
+          <h2>Confiança construída<br>projeto após projeto.</h2>
+        </div>
+        <div class="reviews-grid" aria-label="Avaliações públicas da Montaggio">
+          <article class="review-card">
+            <div class="review-stars" aria-label="5 de 5 estrelas">★★★★★</div>
+            <blockquote>“Excelente, cumpre o que promete. Atendimento personalizado, responde rápido. Cumpre o que promete!!!!”</blockquote>
+            <footer><strong>Maria de Lourdes Ferreira da Costa</strong><span>avaliação pública · Google</span></footer>
+          </article>
+          <article class="review-card">
+            <div class="review-stars" aria-label="5 de 5 estrelas">★★★★★</div>
+            <blockquote>“Excelente trabalho”</blockquote>
+            <footer><strong>Fernanda Rodrigues</strong><span>avaliação pública · Google</span></footer>
+          </article>
+          <article class="review-card">
+            <div class="review-stars" aria-label="5 de 5 estrelas">★★★★★</div>
+            <blockquote>“Excelente trabalho”</blockquote>
+            <footer><strong>Studio Dje Silvia Santos Terapy Hair</strong><span>avaliação pública · Google</span></footer>
+          </article>
+        </div>`;
+    }
+
+    const finalPolish=doc.createElement('style');
+    finalPolish.id='montaggio-final-polish';
+    finalPolish.textContent=`
+      .hero-index{gap:14px}
+      .hero-index span{margin-left:0}
+      .detail-composition figcaption{display:none!important}
+      .testimonial .testimonial-layout{display:block!important}
+      .testimonial-heading{max-width:700px}
+      .reviews-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));margin-top:52px;border-top:1px solid rgba(255,255,255,.14);border-bottom:1px solid rgba(255,255,255,.14)}
+      .review-card{min-height:250px;padding:32px 34px 34px 0;display:flex;flex-direction:column;border-right:1px solid rgba(255,255,255,.12)}
+      .review-card:not(:first-child){padding-left:34px}
+      .review-card:last-child{border-right:0}
+      .review-stars{font-size:13px;letter-spacing:.22em;color:rgba(255,255,255,.66);margin-bottom:28px}
+      .testimonial .review-card blockquote{margin:0;max-width:none;font-size:clamp(20px,1.45vw,27px);line-height:1.34;font-weight:390;letter-spacing:-.025em;color:#f1eee8}
+      .testimonial .review-card footer{margin-top:auto;padding-top:34px;display:flex;flex-direction:column;gap:7px}
+      .testimonial .review-card footer strong{font-size:12px;line-height:1.45;font-weight:650;letter-spacing:.01em;color:#f3f0ea}
+      .testimonial .review-card footer span{font-size:9px;letter-spacing:.13em;text-transform:uppercase;color:rgba(255,255,255,.38)}
+      @media(max-width:560px){
+        .reviews-grid{grid-template-columns:1fr;margin-top:34px}
+        .review-card,.review-card:not(:first-child){min-height:0;padding:28px 0;border-right:0;border-bottom:1px solid rgba(255,255,255,.12)}
+        .review-card:last-child{border-bottom:0}
+        .review-stars{margin-bottom:18px}
+        .testimonial .review-card blockquote{font-size:22px;line-height:1.32}
+        .testimonial .review-card footer{margin-top:26px;padding-top:0}
+      }
+    `;
+    doc.head.appendChild(finalPolish);
+  };
+
+  try{
+    const files=['chunk-01.txt','chunk-02.txt','chunk-03.txt','chunk-04.txt','chunk-05.txt','chunk-06.txt','chunk-07.txt','chunk-08.txt','chunk-09.txt','chunk-10.txt','chunk-11.txt'];
+    const [parts,refinement]=await Promise.all([
+      Promise.all(files.map(f=>fetch('/approved/'+f).then(r=>{if(!r.ok)throw new Error(f);return r.text()}))),
+      fetch('/approved/v23.css').then(r=>{if(!r.ok)throw new Error('v23.css');return r.text()})
+    ]);
+
+    const source=parts.join('');
+    const doc=new DOMParser().parseFromString(source,'text/html');
+    const style=doc.createElement('style');
+    style.id='v23-refinement';
+    style.textContent=refinement;
+    doc.head.appendChild(style);
+    applyCuratedAssets(doc);
+
+    document.open();
+    document.write('<!doctype html>'+doc.documentElement.outerHTML);
+    document.close();
+  }catch(e){
+    document.getElementById('loading').textContent='Falha ao carregar a base aprovada.';
+    console.error(e);
+  }
+})();
+</script>
+</body>
+</html>
