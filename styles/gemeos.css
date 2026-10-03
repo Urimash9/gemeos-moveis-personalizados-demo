@@ -125,7 +125,7 @@ a:focus-visible,button:focus-visible,.carousel-stage:focus-visible{outline:2px s
 .hero-image:after{background:linear-gradient(90deg,rgba(23,25,26,.62),rgba(23,25,26,.06) 45%),linear-gradient(0deg,rgba(23,25,26,.12),transparent 40%)}
 .intro-shape-main{width:76%}
 .intro-shape-main img{object-fit:cover}
-.environment-preview{background:var(--neutral-stone)}
+.environment-preview{background:transparent}
 .environment-preview>span{background:rgba(23,25,26,.86);color:var(--surface-light)}
 .spatial-card img{filter:none}
 .spatial-card:not(.is-active) img{filter:brightness(.85)}
