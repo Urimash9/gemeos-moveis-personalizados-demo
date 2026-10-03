@@ -1,4 +1,4 @@
-/* BUILD 02.4 — sistema cromático Gêmeos V2.1. */
+/* BUILD 02.7 — sistema cromático Gêmeos V2.2; somente a família azul refinada. */
 :root{
  --surface-ink:#17191A;
  --surface-charcoal:#25282A;
@@ -9,9 +9,9 @@
  --neutral-steel:#747A7E;
  --text-muted:#626A6E;
  --text-primary:#292B2C;
- --accent-blue:#526978;
- --accent-blue-deep:#394E5B;
- --accent-blue-light:#6F8B9B;
+ --accent-blue:#3F708D;
+ --accent-blue-deep:#31576D;
+ --accent-blue-light:#74A3BC;
  --accent-wood:#89664C;
  --accent-amber:#C49A67;
  --text-accent-on-charcoal:color-mix(in srgb,var(--accent-blue-light) 90%,var(--surface-paper));

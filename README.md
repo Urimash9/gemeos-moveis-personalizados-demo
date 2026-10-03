@@ -29,10 +29,10 @@ Na Build 02 original não houve reconstrução dos móveis. A curadoria atual in
 os tratamentos assistidos da Build 02.5, descritos abaixo; sua proveniência é
 registrada separadamente. Não há aviso visual de tratamento nesta demo.
 
-A paleta atual é a **Gêmeos V2.1**, aprovada na Build 02.4: grafite `#17191A`,
-carvão `#25282A`, off-white `#F2EFEA`, cinzas, azul aço `#526978`, madeira
+A paleta atual é a **Gêmeos V2.2**, refinada na Build 02.7: grafite `#17191A`,
+carvão `#25282A`, off-white `#F2EFEA`, cinzas, azul aço `#3F708D`, madeira
 `#89664C` e âmbar `#C49A67`. Tokens e aplicações em
-[Paleta V2.1](docs/PALETTE_GEMEOS_V2_1.md).
+[Paleta V2.2](docs/PALETTE_GEMEOS_V2_2.md).
 A referência raster do perfil oficial é aplicada junto ao nome legível, sem
 redesenhar GM. Pequenos cantos chanfrados reforçam sua geometria angular.
 
@@ -78,10 +78,17 @@ O build valida a sintaxe dos scripts e os caminhos de imagens e gera `dist/`.
 `vercel.json` contém somente build e saída; nenhum vínculo com Montaggio.
 O push na branch deve gerar preview pelo projeto Vercel já existente.
 
+## Contato confirmado
+
+WhatsApp: **+55 34 9927-1517** — [conversar](https://wa.me/553499271517).
+Número e mensagem centralizados em `config/site.js`, com URL gerada por
+`whatsappUrl()`. CTAs gerais usam: “Olá, Gêmeos! Vi o site e gostaria de solicitar
+um orçamento para móveis planejados.” O carrossel preserva mensagens específicas
+por ambiente. O fallback de contato permanece como segurança, mas fica inativo
+com o número confirmado. Instagram: `https://www.instagram.com/gemeosmoveis/`.
+
 ## Dados pendentes
 
-- WhatsApp atual confirmado: `config/site.js` mantém `whatsapp: null`.
-  CTAs abrem o contato orientado ao Instagram oficial enquanto aguarda confirmação.
 - Logo oficial em alta qualidade/vetor: `logo: null` é independente de
   `logoReference`, a captura do perfil. Não tratar a captura como vetor oficial.
 - Fotografias originais: todos os slots reais têm `needsOriginal: true`.
@@ -137,3 +144,33 @@ Evidências: [validação](docs/build-02-5-validation.json),
 [institucional desktop/mobile](docs/previews/build-02-5-institutional-desktop-mobile.jpg),
 [conteúdo desktop/mobile](docs/previews/build-02-5-content-desktop-mobile.jpg) e
 [carrossel desktop/mobile](docs/previews/build-02-5-carousel-desktop-mobile.jpg).
+
+## Fechamento Build 02.7
+
+Referência: `4eb72ed08045258a14f64060bd966ae8c8459f19`. WhatsApp confirmado
+e paleta Gêmeos V2.2 documentados acima. Somente número/mensagem de contato e
+três tokens azuis mudam no código; HTML, imagens, crops, CSS base e scripts
+de interação permanecem iguais. A função `whatsappUrl()` é preservada.
+
+QA em **360, 390, 768, 1440 e 1920px**: sete CTAs, mensagens dos oito cards,
+seis Ambientes, setas/teclado/swipe e toque sobre o card, menu mobile/Escape,
+hover/focus-visible, reduced-motion e destinos internos aprovados. Todos os
+links externos mantêm `target="_blank"` e `rel="noopener noreferrer"`.
+O aviso/modal de contato provisório fica inativo com o número configurado.
+Não foram enviadas mensagens durante a validação.
+
+Build completo: 11 chunks e 15 caminhos de imagem válidos. Sem imagens
+quebradas, overflow horizontal, erros de console ou respostas HTTP com erro.
+CLS local máximo: **0,000071**. Zero diferenças de geometria, tipografia,
+crops e animações na comparação dos 325 elementos e pseudo-elementos,
+isolando o refinamento de cor da ativação do contato definitivo.
+
+Contrastes: azul/off-white **4,68:1**, azul claro/carvão **5,44:1**, azul
+claro/grafite **6,47:1**, números do Processo/carvão **6,06:1**. Nenhum
+ajuste extra de cor ou correção de layout foi necessário.
+
+Evidências: [QA final](docs/build-02-7-validation.json),
+[desktop/mobile](docs/previews/build-02-7-desktop-mobile.jpg) e
+[paleta V2.2](docs/PALETTE_GEMEOS_V2_2.md).
+Demo pronta para revisão de merge, **sem merge automático**. Publicação
+somente como preview da branch `build-01-gemeos`; produção preservada.

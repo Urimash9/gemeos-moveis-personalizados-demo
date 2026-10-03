@@ -2,15 +2,15 @@ export const site = {
   name: 'Gêmeos Móveis Planejados',
   location: 'Coromandel · MG',
   instagram: 'https://www.instagram.com/gemeosmoveis/',
-  // PENDENTE: confirmar o WhatsApp atual. Não usar os números históricos.
-  whatsapp: null,
+  // WhatsApp atual confirmado pela Gêmeos — Build 02.7.
+  whatsapp: '553499271517',
   // PENDENTE: arquivo oficial GM / GÊMEOS MÓVEIS / PLANEJADOS.
   // A referência raster é exibida junto ao nome para preservar a legibilidade.
   logo: null,
   logoReference: '/assets/images/gemeos/logo-referencia.webp',
   logoNeedsOriginal: true,
   logoAlt: 'GM — Gêmeos Móveis Planejados',
-  message: 'Olá, Gêmeos! Gostaria de solicitar um orçamento para móveis sob medida.',
+  message: 'Olá, Gêmeos! Vi o site e gostaria de solicitar um orçamento para móveis planejados.',
   demo: true,
 };
 
