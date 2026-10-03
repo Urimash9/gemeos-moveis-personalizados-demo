@@ -18,7 +18,7 @@ const light = real('/assets/images/gemeos/painel-iluminacao.webp', 'Painel Gême
 
 export const assets = {
   hero: kitchen,
-  aboutMain: real('/assets/images/gemeos/institucional-marcio.webp', 'Márcio, proprietário da Gêmeos, na área de produção da marcenaria', 691, 1130, '50% 48%', '50% 45%', false),
+  aboutMain: real('/assets/images/gemeos/institucional-marcio.webp', 'Márcio, proprietário da Gêmeos, na área de produção da marcenaria', 691, 1130, '50% 68%', '50% 68%', false),
   aboutDetail: dining,
   process: real('/assets/images/gemeos/processo-equipe.webp', 'Equipe Gêmeos trabalhando na montagem e conferência de um móvel', 691, 1185, '50% 56%', '50% 56%', false),
   commercial, glass: bedroom, wood: dining, light, cta: light,

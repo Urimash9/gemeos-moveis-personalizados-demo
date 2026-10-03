@@ -166,35 +166,55 @@ a:focus-visible,button:focus-visible,.carousel-stage:focus-visible{outline:2px s
 .spatial-card:not(.is-active){filter:brightness(.86)}
 .spatial-card:not(.is-active) img{filter:none}
 
-/* BUILD 02.1 — projeto e assinatura formam uma única peça sobreposta. */
-.intro-project-signature{
- --frame-border:14px;
- position:absolute;z-index:2;right:-1%;bottom:-1%;width:46%;height:calc(43% + 38px);
+/* BUILD 02.2 — retrato principal e coluna de apoio em fluxo editorial. */
+.intro .intro-visual{
+ display:grid;grid-template-columns:minmax(0,1.9fr) minmax(0,1fr);gap:20px;
+ align-items:end;height:auto;margin-left:0;min-width:0;
 }
-.intro-project-signature .intro-shape-small{
- top:0;bottom:auto;right:0;width:100%;height:calc(100% - 38px);
- border-width:var(--frame-border);
- clip-path:polygon(18% 0,100% 0,100% 100%,0 100%,0 18%);
+.intro .intro-visual::before,.intro .intro-visual::after{content:none}
+.intro .intro-shape-main{
+ position:relative;inset:auto;width:100%;height:auto;aspect-ratio:3/4;
+ clip-path:polygon(0 0,100% 0,100% calc(100% - 16px),calc(100% - 16px) 100%,0 100%);
 }
-.intro-project-signature .experience{
- left:var(--frame-border);right:var(--frame-border);top:auto;bottom:0;
- width:auto;height:64px;padding:14px 18px;background:var(--dark2);
- justify-content:center;clip-path:polygon(0 0,100% 0,100% calc(100% - 18px),calc(100% - 18px) 100%,0 100%);
+.intro .intro-shape-main img{position:absolute;inset:0;width:100%;height:100%}
+.intro .intro-support{
+ display:flex;flex-direction:column;min-width:0;margin-bottom:28px;
 }
-.intro-project-signature .experience strong{
- display:flex;flex-wrap:wrap;align-items:center;gap:4px 7px;
- font-size:11px;line-height:1.55;letter-spacing:.065em;font-weight:500;
+.intro .intro-support .intro-shape-small{
+ position:relative;inset:auto;width:100%;height:auto;aspect-ratio:3/4;
+ border:0;clip-path:polygon(14px 0,100% 0,100% 100%,0 100%,0 14px);
 }
-.intro-project-signature .experience span{
- margin:0;font-size:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;white-space:nowrap;
+.intro .intro-shape-small img{position:absolute;inset:0;width:100%;height:100%}
+.intro .intro-signature{
+ position:relative;width:100%;min-width:0;min-height:74px;
+ display:flex;align-items:center;padding:18px 14px;
+ background:var(--dark2);color:var(--light);
+ clip-path:polygon(0 0,100% 0,100% calc(100% - 14px),calc(100% - 14px) 100%,0 100%);
 }
-.intro-project-signature .experience span:first-child::after{content:" ·"}
+.intro .intro-signature strong{
+ display:flex;flex-direction:column;gap:3px 7px;
+ font-size:11px;line-height:1.6;letter-spacing:.055em;font-weight:500;
+}
+.intro .intro-signature strong span{white-space:nowrap}
+
+@media(min-width:901px) and (max-width:1100px){
+ .intro .intro-visual{grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:16px}
+ .intro .intro-signature{padding-inline:12px}
+ .intro .intro-signature strong{font-size:10px}
+}
 @media(min-width:561px) and (max-width:900px){
- .intro-project-signature{width:40%;height:calc(42% + 38px);right:0;bottom:0;--frame-border:12px}
+ .intro .intro-visual{grid-template-columns:minmax(0,1.65fr) minmax(0,1fr);gap:24px}
+ .intro .intro-support{margin-bottom:24px}
+ .intro .intro-signature{padding:18px;min-height:74px}
+ .intro .intro-signature strong{flex-direction:row;flex-wrap:wrap}
+ .intro .intro-signature strong span:first-child::after{content:" ·"}
 }
 @media(max-width:560px){
- .intro-project-signature{width:62%;height:calc(40% + 38px);right:0;bottom:0;--frame-border:12px}
- .intro-project-signature .experience{padding:10px 14px}
- .intro-project-signature .experience strong{flex-direction:column;align-items:flex-start;gap:2px;font-size:10px}
- .intro-project-signature .experience span:first-child::after{content:none}
+ .intro .intro-visual{display:flex;flex-direction:column;align-items:stretch;gap:18px}
+ .intro .intro-shape-main{width:100%;aspect-ratio:3/4}
+ .intro .intro-support{width:82%;margin:0 0 0 auto}
+ .intro .intro-support .intro-shape-small{aspect-ratio:5/4}
+ .intro .intro-signature{min-height:62px;padding:16px 18px}
+ .intro .intro-signature strong{font-size:11px;flex-direction:row;flex-wrap:wrap}
+ .intro .intro-signature strong span:first-child::after{content:" ·"}
 }
