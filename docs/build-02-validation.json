@@ -1,0 +1,702 @@
+{
+  "build": "passed",
+  "viewports": [
+    {
+      "width": 360,
+      "cls": 0,
+      "overflow": false,
+      "brokenImages": [],
+      "headingFits": true,
+      "realImages": true,
+      "illustrativeNotice": false,
+      "imagePositions": [
+        {
+          "slot": "hero",
+          "position": "58% 50%",
+          "width": 360,
+          "height": 408
+        },
+        {
+          "slot": "aboutMain",
+          "position": "50% 45%",
+          "width": 287,
+          "height": 410
+        },
+        {
+          "slot": "aboutDetail",
+          "position": "50% 52%",
+          "width": 138,
+          "height": 176
+        },
+        {
+          "slot": "0",
+          "position": "50% 64%",
+          "width": 270,
+          "height": 395
+        },
+        {
+          "slot": "1",
+          "position": "50% 52%",
+          "width": 270,
+          "height": 395
+        },
+        {
+          "slot": "2",
+          "position": "50% 52%",
+          "width": 270,
+          "height": 395
+        },
+        {
+          "slot": "3",
+          "position": "23% 52%",
+          "width": 270,
+          "height": 395
+        },
+        {
+          "slot": "4",
+          "position": "50% 50%",
+          "width": 270,
+          "height": 395
+        },
+        {
+          "slot": "5",
+          "position": "50% 52%",
+          "width": 270,
+          "height": 395
+        },
+        {
+          "slot": "6",
+          "position": "50% 52%",
+          "width": 270,
+          "height": 395
+        },
+        {
+          "slot": "7",
+          "position": "50% 47%",
+          "width": 270,
+          "height": 395
+        },
+        {
+          "slot": "commercial",
+          "position": "50% 50%",
+          "width": 360,
+          "height": 520
+        },
+        {
+          "slot": "glass",
+          "position": "50% 52%",
+          "width": 237,
+          "height": 430
+        },
+        {
+          "slot": "wood",
+          "position": "50% 52%",
+          "width": 250,
+          "height": 310
+        },
+        {
+          "slot": "light",
+          "position": "50% 52%",
+          "width": 165,
+          "height": 250
+        },
+        {
+          "slot": "process",
+          "position": "50% 56%",
+          "width": 312,
+          "height": 430
+        },
+        {
+          "slot": "0",
+          "position": "50% 64%",
+          "width": 312,
+          "height": 390
+        },
+        {
+          "slot": "1",
+          "position": "50% 52%",
+          "width": 312,
+          "height": 406
+        },
+        {
+          "slot": "2",
+          "position": "50% 52%",
+          "width": 312,
+          "height": 379
+        },
+        {
+          "slot": "3",
+          "position": "50% 52%",
+          "width": 312,
+          "height": 384
+        },
+        {
+          "slot": "cta",
+          "position": "50% 50%",
+          "width": 360,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "cls": 0,
+      "overflow": false,
+      "brokenImages": [],
+      "headingFits": true,
+      "realImages": true,
+      "illustrativeNotice": false,
+      "imagePositions": [
+        {
+          "slot": "hero",
+          "position": "58% 50%",
+          "width": 390,
+          "height": 408
+        },
+        {
+          "slot": "aboutMain",
+          "position": "50% 45%",
+          "width": 315,
+          "height": 410
+        },
+        {
+          "slot": "aboutDetail",
+          "position": "50% 52%",
+          "width": 154,
+          "height": 176
+        },
+        {
+          "slot": "0",
+          "position": "50% 64%",
+          "width": 270,
+          "height": 395
+        },
+        {
+          "slot": "1",
+          "position": "50% 52%",
+          "width": 270,
+          "height": 395
+        },
+        {
+          "slot": "2",
+          "position": "50% 52%",
+          "width": 270,
+          "height": 395
+        },
+        {
+          "slot": "3",
+          "position": "23% 52%",
+          "width": 270,
+          "height": 395
+        },
+        {
+          "slot": "4",
+          "position": "50% 50%",
+          "width": 270,
+          "height": 395
+        },
+        {
+          "slot": "5",
+          "position": "50% 52%",
+          "width": 270,
+          "height": 395
+        },
+        {
+          "slot": "6",
+          "position": "50% 52%",
+          "width": 270,
+          "height": 395
+        },
+        {
+          "slot": "7",
+          "position": "50% 47%",
+          "width": 270,
+          "height": 395
+        },
+        {
+          "slot": "commercial",
+          "position": "50% 50%",
+          "width": 390,
+          "height": 520
+        },
+        {
+          "slot": "glass",
+          "position": "50% 52%",
+          "width": 260,
+          "height": 430
+        },
+        {
+          "slot": "wood",
+          "position": "50% 52%",
+          "width": 274,
+          "height": 310
+        },
+        {
+          "slot": "light",
+          "position": "50% 52%",
+          "width": 181,
+          "height": 250
+        },
+        {
+          "slot": "process",
+          "position": "50% 56%",
+          "width": 342,
+          "height": 430
+        },
+        {
+          "slot": "0",
+          "position": "50% 64%",
+          "width": 342,
+          "height": 428
+        },
+        {
+          "slot": "1",
+          "position": "50% 52%",
+          "width": 342,
+          "height": 445
+        },
+        {
+          "slot": "2",
+          "position": "50% 52%",
+          "width": 342,
+          "height": 416
+        },
+        {
+          "slot": "3",
+          "position": "50% 52%",
+          "width": 342,
+          "height": 421
+        },
+        {
+          "slot": "cta",
+          "position": "50% 50%",
+          "width": 390,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "cls": 0,
+      "overflow": false,
+      "brokenImages": [],
+      "headingFits": true,
+      "realImages": true,
+      "illustrativeNotice": false,
+      "imagePositions": [
+        {
+          "slot": "hero",
+          "position": "52% 50%",
+          "width": 476,
+          "height": 776
+        },
+        {
+          "slot": "aboutMain",
+          "position": "50% 45%",
+          "width": 432,
+          "height": 546
+        },
+        {
+          "slot": "aboutDetail",
+          "position": "50% 52%",
+          "width": 264,
+          "height": 236
+        },
+        {
+          "slot": "0",
+          "position": "50% 64%",
+          "width": 320,
+          "height": 440
+        },
+        {
+          "slot": "1",
+          "position": "50% 52%",
+          "width": 320,
+          "height": 440
+        },
+        {
+          "slot": "2",
+          "position": "50% 52%",
+          "width": 320,
+          "height": 440
+        },
+        {
+          "slot": "3",
+          "position": "23% 52%",
+          "width": 320,
+          "height": 440
+        },
+        {
+          "slot": "4",
+          "position": "50% 50%",
+          "width": 320,
+          "height": 440
+        },
+        {
+          "slot": "5",
+          "position": "50% 52%",
+          "width": 320,
+          "height": 440
+        },
+        {
+          "slot": "6",
+          "position": "50% 52%",
+          "width": 320,
+          "height": 440
+        },
+        {
+          "slot": "7",
+          "position": "50% 47%",
+          "width": 320,
+          "height": 440
+        },
+        {
+          "slot": "commercial",
+          "position": "50% 50%",
+          "width": 768,
+          "height": 620
+        },
+        {
+          "slot": "glass",
+          "position": "50% 52%",
+          "width": 324,
+          "height": 571
+        },
+        {
+          "slot": "wood",
+          "position": "50% 52%",
+          "width": 374,
+          "height": 286
+        },
+        {
+          "slot": "light",
+          "position": "50% 52%",
+          "width": 259,
+          "height": 313
+        },
+        {
+          "slot": "process",
+          "position": "50% 56%",
+          "width": 460,
+          "height": 550
+        },
+        {
+          "slot": "0",
+          "position": "50% 64%",
+          "width": 504,
+          "height": 470
+        },
+        {
+          "slot": "1",
+          "position": "50% 52%",
+          "width": 288,
+          "height": 550
+        },
+        {
+          "slot": "2",
+          "position": "50% 52%",
+          "width": 310,
+          "height": 470
+        },
+        {
+          "slot": "3",
+          "position": "50% 52%",
+          "width": 418,
+          "height": 390
+        },
+        {
+          "slot": "cta",
+          "position": "50% 50%",
+          "width": 768,
+          "height": 690
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "cls": 0,
+      "overflow": false,
+      "brokenImages": [],
+      "headingFits": true,
+      "realImages": true,
+      "illustrativeNotice": false,
+      "imagePositions": [
+        {
+          "slot": "hero",
+          "position": "52% 50%",
+          "width": 691,
+          "height": 830
+        },
+        {
+          "slot": "aboutMain",
+          "position": "50% 48%",
+          "width": 536,
+          "height": 605
+        },
+        {
+          "slot": "aboutDetail",
+          "position": "50% 52%",
+          "width": 311,
+          "height": 258
+        },
+        {
+          "slot": "0",
+          "position": "50% 64%",
+          "width": 390,
+          "height": 520
+        },
+        {
+          "slot": "1",
+          "position": "50% 52%",
+          "width": 390,
+          "height": 520
+        },
+        {
+          "slot": "2",
+          "position": "50% 52%",
+          "width": 390,
+          "height": 520
+        },
+        {
+          "slot": "3",
+          "position": "23% 52%",
+          "width": 390,
+          "height": 520
+        },
+        {
+          "slot": "4",
+          "position": "50% 50%",
+          "width": 390,
+          "height": 520
+        },
+        {
+          "slot": "5",
+          "position": "50% 52%",
+          "width": 390,
+          "height": 520
+        },
+        {
+          "slot": "6",
+          "position": "50% 52%",
+          "width": 390,
+          "height": 520
+        },
+        {
+          "slot": "7",
+          "position": "50% 47%",
+          "width": 390,
+          "height": 520
+        },
+        {
+          "slot": "commercial",
+          "position": "50% 50%",
+          "width": 763,
+          "height": 917
+        },
+        {
+          "slot": "glass",
+          "position": "50% 52%",
+          "width": 486,
+          "height": 660
+        },
+        {
+          "slot": "wood",
+          "position": "50% 52%",
+          "width": 768,
+          "height": 341
+        },
+        {
+          "slot": "light",
+          "position": "50% 52%",
+          "width": 410,
+          "height": 348
+        },
+        {
+          "slot": "process",
+          "position": "50% 56%",
+          "width": 410,
+          "height": 500
+        },
+        {
+          "slot": "0",
+          "position": "50% 64%",
+          "width": 666,
+          "height": 640
+        },
+        {
+          "slot": "1",
+          "position": "50% 52%",
+          "width": 461,
+          "height": 650
+        },
+        {
+          "slot": "2",
+          "position": "50% 52%",
+          "width": 410,
+          "height": 490
+        },
+        {
+          "slot": "3",
+          "position": "50% 52%",
+          "width": 614,
+          "height": 440
+        },
+        {
+          "slot": "cta",
+          "position": "50% 50%",
+          "width": 1440,
+          "height": 820
+        }
+      ]
+    },
+    {
+      "width": 1920,
+      "cls": 0,
+      "overflow": false,
+      "brokenImages": [],
+      "headingFits": true,
+      "realImages": true,
+      "illustrativeNotice": false,
+      "imagePositions": [
+        {
+          "slot": "hero",
+          "position": "52% 50%",
+          "width": 900,
+          "height": 830
+        },
+        {
+          "slot": "aboutMain",
+          "position": "50% 48%",
+          "width": 610,
+          "height": 605
+        },
+        {
+          "slot": "aboutDetail",
+          "position": "50% 52%",
+          "width": 357,
+          "height": 258
+        },
+        {
+          "slot": "0",
+          "position": "50% 64%",
+          "width": 390,
+          "height": 520
+        },
+        {
+          "slot": "1",
+          "position": "50% 52%",
+          "width": 390,
+          "height": 520
+        },
+        {
+          "slot": "2",
+          "position": "50% 52%",
+          "width": 390,
+          "height": 520
+        },
+        {
+          "slot": "3",
+          "position": "23% 52%",
+          "width": 390,
+          "height": 520
+        },
+        {
+          "slot": "4",
+          "position": "50% 50%",
+          "width": 390,
+          "height": 520
+        },
+        {
+          "slot": "5",
+          "position": "50% 52%",
+          "width": 390,
+          "height": 520
+        },
+        {
+          "slot": "6",
+          "position": "50% 52%",
+          "width": 390,
+          "height": 520
+        },
+        {
+          "slot": "7",
+          "position": "50% 47%",
+          "width": 390,
+          "height": 520
+        },
+        {
+          "slot": "commercial",
+          "position": "50% 50%",
+          "width": 1018,
+          "height": 1222
+        },
+        {
+          "slot": "glass",
+          "position": "50% 52%",
+          "width": 555,
+          "height": 698
+        },
+        {
+          "slot": "wood",
+          "position": "50% 52%",
+          "width": 876,
+          "height": 360
+        },
+        {
+          "slot": "light",
+          "position": "50% 52%",
+          "width": 467,
+          "height": 368
+        },
+        {
+          "slot": "process",
+          "position": "50% 56%",
+          "width": 410,
+          "height": 500
+        },
+        {
+          "slot": "0",
+          "position": "50% 64%",
+          "width": 759,
+          "height": 640
+        },
+        {
+          "slot": "1",
+          "position": "50% 52%",
+          "width": 526,
+          "height": 650
+        },
+        {
+          "slot": "2",
+          "position": "50% 52%",
+          "width": 467,
+          "height": 490
+        },
+        {
+          "slot": "3",
+          "position": "50% 52%",
+          "width": 701,
+          "height": 440
+        },
+        {
+          "slot": "cta",
+          "position": "50% 50%",
+          "width": 1920,
+          "height": 820
+        }
+      ]
+    }
+  ],
+  "consoleErrors": [],
+  "failedRequests": [],
+  "checks": {
+    "menu": "passed",
+    "carouselButtonsKeyboardGestureAndEightPositions": "passed",
+    "environmentSelection": "passed",
+    "contactFallback": "passed",
+    "contactConfig": "passed",
+    "reducedMotion": "passed",
+    "zipFilesUnmodified": "passed",
+    "approvedFilesAndBaseCSSUnmodified": "passed"
+  }
+}

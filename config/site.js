@@ -5,8 +5,10 @@ export const site = {
   // PENDENTE: confirmar o WhatsApp atual. Não usar os números históricos.
   whatsapp: null,
   // PENDENTE: arquivo oficial GM / GÊMEOS MÓVEIS / PLANEJADOS.
-  // O nome em texto é um fallback, não uma proposta de novo logo.
+  // A referência raster é exibida junto ao nome para preservar a legibilidade.
   logo: null,
+  logoReference: '/assets/images/gemeos/logo-referencia.webp',
+  logoNeedsOriginal: true,
   logoAlt: 'GM — Gêmeos Móveis Planejados',
   message: 'Olá, Gêmeos! Gostaria de solicitar um orçamento para móveis sob medida.',
   demo: true,

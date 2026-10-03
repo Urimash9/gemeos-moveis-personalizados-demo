@@ -6,7 +6,10 @@ const setImage = (img, data) => {
   img.alt = data.alt;
   img.width = data.width;
   img.height = data.height;
-  img.style.objectPosition = data.position;
+  img.style.setProperty('--asset-position', data.position);
+  img.style.setProperty('--asset-position-mobile', data.positionMobile);
+  img.style.setProperty('--asset-scale', data.scale || 1);
+  img.style.setProperty('--asset-inset', data.frameInset || '0%');
   img.decoding = 'async';
 };
 document.querySelectorAll('[data-asset]').forEach(img => setImage(img, assets[img.dataset.asset]));
@@ -15,23 +18,14 @@ document.querySelectorAll('[data-project]').forEach(img => {
   const data = assets.projects[Number(img.dataset.project)];
   setImage(img, data);
   img.closest('figure').querySelector('figcaption strong').textContent = data.title;
-  img.closest('figure').querySelector('figcaption span').textContent = data.provisional ? 'Imagem ilustrativa · foto real pendente' : 'Projeto Gêmeos · sob medida';
+  img.closest('figure').querySelector('figcaption span').textContent = 'Projeto Gêmeos · sob medida';
 });
-if (assets.projects.every(image => !image.provisional)) {
-  document.querySelector('[data-project-notice]').textContent = 'Uma seleção de ambientes executados pela Gêmeos, com soluções pensadas para diferentes necessidades.';
-}
-for (const [selector, slots] of Object.entries({
-  '.hero-media': ['hero'], '.intro-visual': ['aboutMain', 'aboutDetail'], '.final-cta': ['cta'],
-})) document.querySelector(`${selector} .asset-note`).hidden = slots.every(slot => !assets[slot].provisional);
-for (const [selector, slot] of Object.entries({ '.detail-tall': 'glass', '.detail-wide': 'wood', '.detail-small': 'light' })) {
-  document.querySelector(`${selector} figcaption`).hidden = !assets[slot].provisional;
-}
-document.querySelector('.featured-label span').textContent = assets.commercial.provisional ? 'Imagem ilustrativa · provisória' : 'Ambiente comercial · Gêmeos';
-if (site.logo) document.querySelectorAll('.brand,.footer-brand').forEach(container => {
-  const img = document.createElement('img');
+// A referência oficial de perfil não é um novo símbolo nem um arquivo vetorial.
+// Dimensões reservadas no HTML evitam deslocamentos durante o carregamento.
+if (site.logo) document.querySelectorAll('[data-logo-reference]').forEach(img => {
   img.src = site.logo; img.alt = site.logoAlt;
-  container.replaceChildren(img);
 });
+else document.querySelectorAll('[data-logo-reference]').forEach(img => img.src = site.logoReference);
 
 const header = document.getElementById('header');
 const floating = document.querySelector('.floating-wa');
@@ -98,7 +92,7 @@ environmentButtons.forEach((button, i) => {
     switchTimer = setTimeout(() => {
       const data = assets.environments[i];
       setImage(preview, data);
-      previewWrap.querySelector('span').textContent = data.provisional ? 'Imagem ilustrativa · foto real a substituir' : `${data.title} · Gêmeos Móveis Planejados`;
+      previewWrap.querySelector('span').textContent = `${data.title} · Gêmeos Móveis Planejados`;
       previewWrap.classList.remove('switching');
     }, matchMedia('(prefers-reduced-motion: reduce)').matches ? 0 : 180);
   };
@@ -122,7 +116,7 @@ cards.forEach((card, i) => {
   card.dataset.title = data.title;
   card.dataset.sub = data.sub;
   card.querySelector('strong').textContent = data.title;
-  card.querySelector('small').textContent = data.provisional ? 'Imagem ilustrativa · provisória' : 'Gêmeos · sob medida';
+  card.querySelector('small').textContent = 'Gêmeos · sob medida';
 });
 activeTitle.parentElement.setAttribute('aria-live', 'polite');
 function cyclicDiff(i, a, n) {

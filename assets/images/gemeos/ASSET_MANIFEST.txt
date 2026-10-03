@@ -1,0 +1,26 @@
+GÊMEOS MÓVEIS PLANEJADOS — ASSET PACK / BUILD 02
+Origem: screenshots fornecidos pelo usuário a partir do Instagram e Google.
+Uso: demo comercial interna / preview. Não publicar como acervo definitivo sem substituir por originais quando possível.
+
+PRIORIDADE
+- hero-cozinha.webp — melhor candidata atual para Hero.
+- projeto-quarto-reflecta.webp — projeto forte para destaque/quartos.
+- projeto-sala-tv.webp — sala/painel para projetos.
+- projeto-sala-integrada.webp — sala integrada / composição residencial.
+- projeto-home-office.webp — home office com detalhe arredondado.
+- area-gourmet.webp — ambiente gourmet.
+- projeto-jantar-ripado.webp — jantar / ripado.
+- projeto-quarto-infantil.webp — quarto infantil.
+- comercial-oab.webp — prova de atuação comercial.
+- institucional-marcio.webp — institucional / proprietário Márcio.
+- processo-equipe.webp — processo / montagem.
+- painel-iluminacao.webp — materialidade / iluminação integrada.
+- logo-referencia.webp — referência visual do logo atual (não é arquivo vetorial/oficial).
+
+REGRAS
+1. Estes arquivos são crops de screenshots. Alguns ainda podem conter elementos visuais do post/story.
+2. Não alterar o mobiliário nem reconstruir os projetos com IA.
+3. Preferir hero-cozinha, projeto-quarto-reflecta e projeto-sala-tv nos pontos de maior destaque.
+4. Não usar a fachada como Hero.
+5. Manter substituição fácil no código para trocar por arquivos originais depois.
+6. Logo-referencia é apenas uma referência; não redesenhar a marca.

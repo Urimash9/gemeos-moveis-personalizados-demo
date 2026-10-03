@@ -1,74 +1,93 @@
 # Gêmeos Móveis Planejados — Demo
 
-Projeto independente da AVERO Studio para a Gêmeos Móveis Planejados.
+Projeto independente da AVERO Studio para a Gêmeos Móveis Planejados, Coromandel/MG.
 
-## Origem da base visual
+## Origem preservada
 
-Este repositório parte da versão aprovada do projeto Montaggio, preservada no repositório `Urimash9/montaggio-personalizados-demo` no checkpoint:
+A fundação visual vem de `Urimash9/montaggio-personalizados-demo`, checkpoint
+`checkpoint/montaggio-v2.3-base`, commit
+`d2cf26bc44f1a41b4fe3bc169380700e2ae9e78b`.
 
-`checkpoint/montaggio-v2.3-base`
+Montaggio permanece somente leitura. Os arquivos de `approved/` e os assets
+históricos foram preservados para rastreabilidade; não são a fonte ativa da demo.
+Todo o trabalho acontece em `Urimash9/gemeos-moveis-personalizados-demo`, branch
+`build-01-gemeos`. Nenhum merge ou promoção para produção nesta rodada.
 
-Commit de referência:
+## Build 02 — identidade e material real
 
-`d2cf26bc44f1a41b4fe3bc169380700e2ae9e78b`
+Continua a Build 01 (`e00c2d77086c9ade2288ea73e571bb4b372307b8`), preservando
+hierarquia, assimetria, sobreposições, navegação e carrossel espacial.
+As fotografias ativas agora vêm do pacote `gemeos-build-02-assets.zip`.
+O manifesto original acompanha os arquivos em `assets/images/gemeos/`.
 
-## Regra de trabalho
+**Proveniência:** fotografias de trabalhos reais da Gêmeos, além de Márcio e da
+equipe em atividade. **Qualidade:** screenshots/crops otimizados, ainda sem os
+originais de câmera. Essas informações são independentes em `config/assets.js`:
+`provenance`, `isRealProject`, `sourceFormat` e `needsOriginal`. Márcio e equipe são
+material real, mas não são classificados como fotografias de projetos.
+Não há aviso de imagem ilustrativa nas fotografias reais. Nenhum móvel foi
+reconstruído, gerado ou alterado. O enquadramento é feito por CSS.
 
-- Não editar o repositório Montaggio para desenvolver a Gêmeos.
-- Trabalhar neste repositório de forma independente.
-- A primeira adaptação deve acontecer na branch `build-01-gemeos`.
-- Não fazer merge em `main` sem revisão visual.
+A paleta usa grafite `#171819` / `#1B1C1E`, off-white `#F2EFE9`, fendi `#B8AEA4`,
+madeira `#8F6B50` / `#9B7559` e âmbar `#D5A45F` em microacentos.
+A referência raster do perfil oficial é aplicada junto ao nome legível, sem
+redesenhar GM. Pequenos cantos chanfrados reforçam sua geometria angular.
 
-## Build 01 — Gêmeos
+O mapa de cada fotografia e seus usos está em [ASSET_MAP.md](ASSET_MAP.md).
 
-Composição editorial adaptada para design, execução e confiança, com grafite,
-off-white, madeira quente e tons fendi. A arquitetura responsiva, os recortes,
-sobreposições e o carrossel espacial vêm do checkpoint aprovado.
+## Executar e buildar
 
-O HTML de `index.html` foi recomposto a partir dos 11 chunks e do refinamento
-V2.3, preservando os frames e as regras de layout. Agora o conteúdo semântico
-é entregue diretamente, sem depender de `document.write` ou de 12 requisições
-para montar a página. Os arquivos de `approved/` permanecem intactos para
-rastreabilidade; não são a fonte ativa da demo Gêmeos.
-
-### Executar e buildar
-
-Node.js 20 ou superior. Nenhuma dependência de execução ou instalação adicional.
+Node.js 20 ou superior. Sem dependências adicionais de execução.
 
 ```sh
 npm run build
 python3 -m http.server 4173 --directory dist
 ```
 
-O build valida a sintaxe dos scripts da base preservada e os caminhos de imagens,
-e gera `dist/`. `vercel.json` define apenas build e saída; não contém vínculo com
-o projeto Montaggio. O push em `build-01-gemeos` deve gerar somente preview.
+`index.html` entrega o conteúdo semântico e as imagens diretamente, incluindo
+as dimensões, sem flash de assets herdados. `config/assets.js` centraliza os
+arquivos e os crops desktop/mobile; ao substituir uma fotografia, atualizar
+os dados e o fallback correspondente no HTML. `scripts/interactions.js`
+aplica a configuração e preserva menu, seleção de ambientes e carrossel.
 
-### Configuração e pendências
+O build valida a sintaxe dos scripts e os caminhos de imagens e gera `dist/`.
+`vercel.json` contém somente build e saída; nenhum vínculo com Montaggio.
+O push na branch deve gerar preview pelo projeto Vercel já existente.
 
-- `config/site.js`: WhatsApp, logo oficial, Instagram e mensagem centralizados.
-  `whatsapp: null` é intencional: não reutilizar telefones históricos sem confirmação.
-  O CTA abre uma conversa orientada ao Instagram enquanto o número está pendente.
-- `config/assets.js`: todos os slots de fotos, dimensões, crops e status provisório.
-  Substituir com arquivos originais da Gêmeos. Somente marcar `provisional: false`
-  quando a imagem corresponder a um trabalho confirmado da empresa.
-- O nome em texto no cabeçalho e rodapé é fallback para o arquivo oficial de logo.
-  Nenhum símbolo GM foi redesenhado.
-- Fotos do Márcio e da equipe, projetos reais, avaliações independentes e endereço
-  completo ainda precisam ser disponibilizados/confirmados. Nenhum número de projetos,
-  clientes, prêmios, data de fundação ou capacidade de fábrica foi inventado.
-- Todas as imagens ativas são referências editoriais provisórias da base, identificadas
-  na interface. As fotografias reais do Montaggio foram copiadas para preservar a árvore,
-  mas não são exibidas como projetos Gêmeos.
-- A demo tem `noindex, nofollow`. Title, description, headings e dados estruturados
-  estão preparados para Coromandel/MG; rever indexação somente após validar os dados.
+## Dados pendentes
 
-### Validação realizada
+- WhatsApp atual confirmado: `config/site.js` mantém `whatsapp: null`.
+  CTAs abrem o contato orientado ao Instagram oficial enquanto aguarda confirmação.
+- Logo oficial em alta qualidade/vetor: `logo: null` é independente de
+  `logoReference`, a captura do perfil. Não tratar a captura como vetor oficial.
+- Fotografias originais: todos os slots reais têm `needsOriginal: true`.
+  Substituir antes da publicação definitiva do portfólio, conforme manifesto.
+- Avaliações completas e autorias independentes ainda não cadastradas.
+  Qualidade, acabamento e atendimento aparecem como temas, sem depoimentos inventados.
+- Endereço completo não confirmado. Apenas Coromandel/MG é apresentado.
 
-Build base antes da adaptação e build final aprovados. Chromium/Playwright em
-360, 390, 768, 1440 e 1920 px: conteúdo, imagens, anchors, menu, carrossel por
-botões/teclado, modal de contato, configuração única de WhatsApp e redução de
-movimento verificados. Nenhum overflow, imagem quebrada ou erro de console.
+A presença da OAB na recepção fotografada não é alegação de parceria ou de
+contexto contratual. Nenhum número de clientes, projetos, prêmio, funcionário,
+capacidade de fábrica ou data de fundação foi inventado. A fachada não foi usada.
+A demo continua com `noindex, nofollow`; rever somente após validar os dados.
 
-Revisar visualmente a fotografia e o crop da hero, os títulos, a composição de
-projetos e a narrativa institucional quando chegarem os assets reais.
+## Revisão visual
+
+Priorizar a hero em 360/390 px e telas largas, Márcio no contexto da oficina,
+a montagem da equipe, a seleção dos oito ambientes no carrossel e a assimetria
+no portfólio. As proporções verticais dos screenshots limitam alguns crops.
+O enquadramento dos arquivos originais poderá melhorar definição e remover
+naturalmente os elementos de Stories ainda presentes, sem reconstrução por IA.
+
+## Validação Build 02
+
+`npm run build` aprovado. Chromium/Playwright em 360, 390, 768, 1440 e 1920 px:
+sem overflow, imagens quebradas, anchors inválidos ou erros de console; CLS
+medido em **0** nas cinco larguras nesta execução local. Foram conferidos menu,
+contato provisório, configuração central de WhatsApp, seleção dos seis ambientes,
+carrossel por botões/teclado/gesto e redução de movimento. Todos os componentes
+ativos usam `/assets/images/gemeos/`.
+
+Evidência: [validação](docs/build-02-validation.json) e
+[desktop/mobile](docs/previews/build-02-desktop-mobile.jpg). A medição local de CLS
+não substitui dados de uso real. Nenhuma alteração foi feita no Montaggio.
