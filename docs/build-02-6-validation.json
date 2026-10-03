@@ -1,0 +1,370 @@
+{
+  "referenceCommit": "213e4f5f3a1efcd9e425c046478f54b0ab1fc941",
+  "results": [
+    {
+      "width": 390,
+      "comparedElements": 325,
+      "unauthorizedChanges": 0,
+      "categories": [
+        {
+          "frame": [
+            24,
+            342
+          ],
+          "image": [
+            24,
+            342
+          ],
+          "src": "/assets/images/gemeos/final/cozinha-tratada-final.webp",
+          "clip": "polygon(0px 9%, 12% 0px, 100% 0px, 100% 100%, 0px 100%)",
+          "inset": "0px",
+          "naturalWidth": 900
+        },
+        {
+          "frame": [
+            24,
+            342
+          ],
+          "image": [
+            24,
+            342
+          ],
+          "src": "/assets/images/gemeos/final/sala-tv-final.webp",
+          "clip": "polygon(0px 9%, 12% 0px, 100% 0px, 100% 100%, 0px 100%)",
+          "inset": "0px",
+          "naturalWidth": 900
+        },
+        {
+          "frame": [
+            24,
+            342
+          ],
+          "image": [
+            24,
+            342
+          ],
+          "src": "/assets/images/gemeos/projeto-quarto-reflecta.webp",
+          "clip": "polygon(0px 9%, 12% 0px, 100% 0px, 100% 100%, 0px 100%)",
+          "inset": "0px",
+          "naturalWidth": 691
+        },
+        {
+          "frame": [
+            24,
+            342
+          ],
+          "image": [
+            24,
+            342
+          ],
+          "src": "/assets/images/gemeos/projeto-home-office.webp",
+          "clip": "polygon(0px 9%, 12% 0px, 100% 0px, 100% 100%, 0px 100%)",
+          "inset": "0px",
+          "naturalWidth": 625
+        },
+        {
+          "frame": [
+            24,
+            342
+          ],
+          "image": [
+            24,
+            342
+          ],
+          "src": "/assets/images/gemeos/area-gourmet.webp",
+          "clip": "polygon(0px 9%, 12% 0px, 100% 0px, 100% 100%, 0px 100%)",
+          "inset": "0px",
+          "naturalWidth": 691
+        },
+        {
+          "frame": [
+            24,
+            342
+          ],
+          "image": [
+            24,
+            342
+          ],
+          "src": "/assets/images/gemeos/comercial-oab.webp",
+          "clip": "polygon(0px 9%, 12% 0px, 100% 0px, 100% 100%, 0px 100%)",
+          "inset": "0px",
+          "naturalWidth": 691
+        }
+      ],
+      "labels": [
+        {
+          "text": "Reflecta e marcenaria",
+          "top": "16px",
+          "bottom": "388.812px",
+          "left": "10px",
+          "right": "10px",
+          "occluded": []
+        },
+        {
+          "text": "Madeira e ripado",
+          "top": "16px",
+          "bottom": "268.812px",
+          "left": "10px",
+          "right": "10px",
+          "occluded": []
+        },
+        {
+          "text": "Iluminação integrada",
+          "top": "214.812px",
+          "bottom": "10px",
+          "left": "10px",
+          "right": "10px",
+          "occluded": []
+        }
+      ],
+      "overflow": false,
+      "brokenImages": 0,
+      "cls": 0
+    },
+    {
+      "width": 768,
+      "comparedElements": 325,
+      "unauthorizedChanges": 0,
+      "categories": [
+        {
+          "frame": [
+            406.5,
+            337.5
+          ],
+          "image": [
+            406.5,
+            337.5
+          ],
+          "src": "/assets/images/gemeos/final/cozinha-tratada-final.webp",
+          "clip": "polygon(0px 9%, 12% 0px, 100% 0px, 100% 100%, 0px 100%)",
+          "inset": "0px",
+          "naturalWidth": 900
+        },
+        {
+          "frame": [
+            406.5,
+            337.5
+          ],
+          "image": [
+            406.5,
+            337.5
+          ],
+          "src": "/assets/images/gemeos/final/sala-tv-final.webp",
+          "clip": "polygon(0px 9%, 12% 0px, 100% 0px, 100% 100%, 0px 100%)",
+          "inset": "0px",
+          "naturalWidth": 900
+        },
+        {
+          "frame": [
+            406.5,
+            337.5
+          ],
+          "image": [
+            406.5,
+            337.5
+          ],
+          "src": "/assets/images/gemeos/projeto-quarto-reflecta.webp",
+          "clip": "polygon(0px 9%, 12% 0px, 100% 0px, 100% 100%, 0px 100%)",
+          "inset": "0px",
+          "naturalWidth": 691
+        },
+        {
+          "frame": [
+            406.5,
+            337.5
+          ],
+          "image": [
+            406.5,
+            337.5
+          ],
+          "src": "/assets/images/gemeos/projeto-home-office.webp",
+          "clip": "polygon(0px 9%, 12% 0px, 100% 0px, 100% 100%, 0px 100%)",
+          "inset": "0px",
+          "naturalWidth": 625
+        },
+        {
+          "frame": [
+            406.5,
+            337.5
+          ],
+          "image": [
+            406.5,
+            337.5
+          ],
+          "src": "/assets/images/gemeos/area-gourmet.webp",
+          "clip": "polygon(0px 9%, 12% 0px, 100% 0px, 100% 100%, 0px 100%)",
+          "inset": "0px",
+          "naturalWidth": 691
+        },
+        {
+          "frame": [
+            406.5,
+            337.5
+          ],
+          "image": [
+            406.5,
+            337.5
+          ],
+          "src": "/assets/images/gemeos/comercial-oab.webp",
+          "clip": "polygon(0px 9%, 12% 0px, 100% 0px, 100% 100%, 0px 100%)",
+          "inset": "0px",
+          "naturalWidth": 691
+        }
+      ],
+      "labels": [
+        {
+          "text": "Reflecta e marcenaria",
+          "top": "16px",
+          "bottom": "528.594px",
+          "left": "14px",
+          "right": "14px",
+          "occluded": []
+        },
+        {
+          "text": "Madeira e ripado",
+          "top": "16px",
+          "bottom": "243px",
+          "left": "14px",
+          "right": "14px",
+          "occluded": []
+        },
+        {
+          "text": "Iluminação integrada",
+          "top": "274.203px",
+          "bottom": "12px",
+          "left": "14px",
+          "right": "14px",
+          "occluded": []
+        }
+      ],
+      "overflow": false,
+      "brokenImages": 0,
+      "cls": 0
+    },
+    {
+      "width": 1440,
+      "comparedElements": 325,
+      "unauthorizedChanges": 0,
+      "categories": [
+        {
+          "frame": [
+            799,
+            561
+          ],
+          "image": [
+            799,
+            561
+          ],
+          "src": "/assets/images/gemeos/final/cozinha-tratada-final.webp",
+          "clip": "polygon(0px 10%, 10% 0px, 100% 0px, 100% 100%, 0px 100%)",
+          "inset": "0px",
+          "naturalWidth": 900
+        },
+        {
+          "frame": [
+            799,
+            561
+          ],
+          "image": [
+            799,
+            561
+          ],
+          "src": "/assets/images/gemeos/final/sala-tv-final.webp",
+          "clip": "polygon(0px 10%, 10% 0px, 100% 0px, 100% 100%, 0px 100%)",
+          "inset": "0px",
+          "naturalWidth": 900
+        },
+        {
+          "frame": [
+            799,
+            561
+          ],
+          "image": [
+            799,
+            561
+          ],
+          "src": "/assets/images/gemeos/projeto-quarto-reflecta.webp",
+          "clip": "polygon(0px 10%, 10% 0px, 100% 0px, 100% 100%, 0px 100%)",
+          "inset": "0px",
+          "naturalWidth": 691
+        },
+        {
+          "frame": [
+            799,
+            561
+          ],
+          "image": [
+            799,
+            561
+          ],
+          "src": "/assets/images/gemeos/projeto-home-office.webp",
+          "clip": "polygon(0px 10%, 10% 0px, 100% 0px, 100% 100%, 0px 100%)",
+          "inset": "0px",
+          "naturalWidth": 625
+        },
+        {
+          "frame": [
+            799,
+            561
+          ],
+          "image": [
+            799,
+            561
+          ],
+          "src": "/assets/images/gemeos/area-gourmet.webp",
+          "clip": "polygon(0px 10%, 10% 0px, 100% 0px, 100% 100%, 0px 100%)",
+          "inset": "0px",
+          "naturalWidth": 691
+        },
+        {
+          "frame": [
+            799,
+            561
+          ],
+          "image": [
+            799,
+            561
+          ],
+          "src": "/assets/images/gemeos/comercial-oab.webp",
+          "clip": "polygon(0px 10%, 10% 0px, 100% 0px, 100% 100%, 0px 100%)",
+          "inset": "0px",
+          "naturalWidth": 691
+        }
+      ],
+      "labels": [
+        {
+          "text": "Reflecta e marcenaria",
+          "top": "16px",
+          "bottom": "617.703px",
+          "left": "14px",
+          "right": "14px",
+          "occluded": []
+        },
+        {
+          "text": "Madeira e ripado",
+          "top": "16px",
+          "bottom": "298.203px",
+          "left": "14px",
+          "right": "14px",
+          "occluded": []
+        },
+        {
+          "text": "Iluminação integrada",
+          "top": "309.297px",
+          "bottom": "12px",
+          "left": "14px",
+          "right": "14px",
+          "occluded": []
+        }
+      ],
+      "overflow": false,
+      "brokenImages": 0,
+      "cls": 0
+    }
+  ],
+  "errors": [],
+  "requests": [],
+  "reducedMotion": "passed",
+  "build": "passed",
+  "scope": "Only three CSS declarations appended to styles/gemeos.css. Approved CSS, HTML, assets, config, geometry, palette, type and animations remain unchanged except preview image x/width and first two caption y positions."
+}

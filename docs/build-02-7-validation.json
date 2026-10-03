@@ -1,0 +1,1205 @@
+{
+  "referenceCommit": "4eb72ed08045258a14f64060bd966ae8c8459f19",
+  "whatsapp": "553499271517",
+  "message": "Olá, Gêmeos! Vi o site e gostaria de solicitar um orçamento para móveis planejados.",
+  "results": [
+    {
+      "width": 360,
+      "comparedElements": 325,
+      "geometryDifferences": 0,
+      "contactLinks": [
+        {
+          "id": "",
+          "class": "header-cta",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Vi%20o%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20m%C3%B3veis%20planejados.",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "text": "Solicitar orçamento"
+        },
+        {
+          "id": "",
+          "class": "mobile-menu-cta",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Vi%20o%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20m%C3%B3veis%20planejados.",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "text": "Solicitar orçamento ↗"
+        },
+        {
+          "id": "",
+          "class": "btn btn-light",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Vi%20o%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20m%C3%B3veis%20planejados.",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "text": "SOLICITAR ORÇAMENTO"
+        },
+        {
+          "id": "activeBudget",
+          "class": "btn btn-outline-light",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Gostaria%20de%20conversar%20sobre%20cozinhas%20sob%20medida.",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "text": "PLANEJAR ALGO NESSA LINHA ↗"
+        },
+        {
+          "id": "",
+          "class": "btn btn-light",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Vi%20o%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20m%C3%B3veis%20planejados.",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "text": "CONVERSAR NO WHATSAPP ↗"
+        },
+        {
+          "id": "",
+          "class": "",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Vi%20o%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20m%C3%B3veis%20planejados.",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "text": "Conversar no WhatsApp ↗"
+        },
+        {
+          "id": "",
+          "class": "floating-wa",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Vi%20o%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20m%C3%B3veis%20planejados.",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "text": "FALAR"
+        }
+      ],
+      "instagramLinks": [
+        {
+          "href": "https://www.instagram.com/gemeosmoveis/",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "href": "https://www.instagram.com/gemeosmoveis/",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "href": "https://www.instagram.com/gemeosmoveis/",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        }
+      ],
+      "environmentChoices": [
+        {
+          "frame": [
+            24,
+            312
+          ],
+          "image": [
+            24,
+            312
+          ],
+          "title": "Cozinhas · Gêmeos Móveis Planejados",
+          "src": "/assets/images/gemeos/final/cozinha-tratada-final.webp",
+          "clip": "polygon(0px 9%, 12% 0px, 100% 0px, 100% 100%, 0px 100%)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "naturalWidth": 900
+        },
+        {
+          "frame": [
+            24,
+            312
+          ],
+          "image": [
+            24,
+            312
+          ],
+          "title": "Salas · Gêmeos Móveis Planejados",
+          "src": "/assets/images/gemeos/final/sala-tv-final.webp",
+          "clip": "polygon(0px 9%, 12% 0px, 100% 0px, 100% 100%, 0px 100%)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "naturalWidth": 900
+        },
+        {
+          "frame": [
+            24,
+            312
+          ],
+          "image": [
+            24,
+            312
+          ],
+          "title": "Quartos · Gêmeos Móveis Planejados",
+          "src": "/assets/images/gemeos/projeto-quarto-reflecta.webp",
+          "clip": "polygon(0px 9%, 12% 0px, 100% 0px, 100% 100%, 0px 100%)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "naturalWidth": 691
+        },
+        {
+          "frame": [
+            24,
+            312
+          ],
+          "image": [
+            24,
+            312
+          ],
+          "title": "Home office · Gêmeos Móveis Planejados",
+          "src": "/assets/images/gemeos/projeto-home-office.webp",
+          "clip": "polygon(0px 9%, 12% 0px, 100% 0px, 100% 100%, 0px 100%)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "naturalWidth": 625
+        },
+        {
+          "frame": [
+            24,
+            312
+          ],
+          "image": [
+            24,
+            312
+          ],
+          "title": "Áreas gourmet · Gêmeos Móveis Planejados",
+          "src": "/assets/images/gemeos/area-gourmet.webp",
+          "clip": "polygon(0px 9%, 12% 0px, 100% 0px, 100% 100%, 0px 100%)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "naturalWidth": 691
+        },
+        {
+          "frame": [
+            24,
+            312
+          ],
+          "image": [
+            24,
+            312
+          ],
+          "title": "Comercial · Gêmeos Móveis Planejados",
+          "src": "/assets/images/gemeos/comercial-oab.webp",
+          "clip": "polygon(0px 9%, 12% 0px, 100% 0px, 100% 100%, 0px 100%)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "naturalWidth": 691
+        }
+      ],
+      "carouselMessages": [
+        {
+          "title": "Cozinhas",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Gostaria%20de%20conversar%20sobre%20cozinhas%20sob%20medida."
+        },
+        {
+          "title": "Salas e painéis",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Gostaria%20de%20conversar%20sobre%20salas%20e%20pain%C3%A9is%20sob%20medida."
+        },
+        {
+          "title": "Quartos",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Gostaria%20de%20conversar%20sobre%20quartos%20sob%20medida."
+        },
+        {
+          "title": "Home office",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Gostaria%20de%20conversar%20sobre%20home%20office%20sob%20medida."
+        },
+        {
+          "title": "Áreas gourmet",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Gostaria%20de%20conversar%20sobre%20%C3%A1reas%20gourmet%20sob%20medida."
+        },
+        {
+          "title": "CRISTALEIRAS",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Gostaria%20de%20conversar%20sobre%20cristaleiras%20sob%20medida."
+        },
+        {
+          "title": "Sala de jantar",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Gostaria%20de%20conversar%20sobre%20sala%20de%20jantar%20sob%20medida."
+        },
+        {
+          "title": "Quarto infantil",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Gostaria%20de%20conversar%20sobre%20quarto%20infantil%20sob%20medida."
+        }
+      ],
+      "labels": [
+        {
+          "text": "Reflecta e marcenaria",
+          "top": "16px",
+          "bottom": "388.812px",
+          "occluded": []
+        },
+        {
+          "text": "Madeira e ripado",
+          "top": "16px",
+          "bottom": "268.812px",
+          "occluded": []
+        },
+        {
+          "text": "Iluminação integrada",
+          "top": "214.812px",
+          "bottom": "10px",
+          "occluded": []
+        }
+      ],
+      "focus": {
+        "visible": true,
+        "color": "rgb(49, 87, 109)",
+        "width": "2px"
+      },
+      "overflow": false,
+      "brokenImages": 0,
+      "cls": 0,
+      "menu": "passed",
+      "carouselArrowsKeyboardPointerTouch": "passed"
+    },
+    {
+      "width": 390,
+      "comparedElements": 325,
+      "geometryDifferences": 0,
+      "contactLinks": [
+        {
+          "id": "",
+          "class": "header-cta",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Vi%20o%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20m%C3%B3veis%20planejados.",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "text": "Solicitar orçamento"
+        },
+        {
+          "id": "",
+          "class": "mobile-menu-cta",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Vi%20o%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20m%C3%B3veis%20planejados.",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "text": "Solicitar orçamento ↗"
+        },
+        {
+          "id": "",
+          "class": "btn btn-light",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Vi%20o%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20m%C3%B3veis%20planejados.",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "text": "SOLICITAR ORÇAMENTO"
+        },
+        {
+          "id": "activeBudget",
+          "class": "btn btn-outline-light",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Gostaria%20de%20conversar%20sobre%20cozinhas%20sob%20medida.",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "text": "PLANEJAR ALGO NESSA LINHA ↗"
+        },
+        {
+          "id": "",
+          "class": "btn btn-light",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Vi%20o%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20m%C3%B3veis%20planejados.",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "text": "CONVERSAR NO WHATSAPP ↗"
+        },
+        {
+          "id": "",
+          "class": "",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Vi%20o%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20m%C3%B3veis%20planejados.",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "text": "Conversar no WhatsApp ↗"
+        },
+        {
+          "id": "",
+          "class": "floating-wa",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Vi%20o%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20m%C3%B3veis%20planejados.",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "text": "FALAR"
+        }
+      ],
+      "instagramLinks": [
+        {
+          "href": "https://www.instagram.com/gemeosmoveis/",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "href": "https://www.instagram.com/gemeosmoveis/",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "href": "https://www.instagram.com/gemeosmoveis/",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        }
+      ],
+      "environmentChoices": [
+        {
+          "frame": [
+            24,
+            342
+          ],
+          "image": [
+            24,
+            342
+          ],
+          "title": "Cozinhas · Gêmeos Móveis Planejados",
+          "src": "/assets/images/gemeos/final/cozinha-tratada-final.webp",
+          "clip": "polygon(0px 9%, 12% 0px, 100% 0px, 100% 100%, 0px 100%)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "naturalWidth": 900
+        },
+        {
+          "frame": [
+            24,
+            342
+          ],
+          "image": [
+            24,
+            342
+          ],
+          "title": "Salas · Gêmeos Móveis Planejados",
+          "src": "/assets/images/gemeos/final/sala-tv-final.webp",
+          "clip": "polygon(0px 9%, 12% 0px, 100% 0px, 100% 100%, 0px 100%)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "naturalWidth": 900
+        },
+        {
+          "frame": [
+            24,
+            342
+          ],
+          "image": [
+            24,
+            342
+          ],
+          "title": "Quartos · Gêmeos Móveis Planejados",
+          "src": "/assets/images/gemeos/projeto-quarto-reflecta.webp",
+          "clip": "polygon(0px 9%, 12% 0px, 100% 0px, 100% 100%, 0px 100%)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "naturalWidth": 691
+        },
+        {
+          "frame": [
+            24,
+            342
+          ],
+          "image": [
+            24,
+            342
+          ],
+          "title": "Home office · Gêmeos Móveis Planejados",
+          "src": "/assets/images/gemeos/projeto-home-office.webp",
+          "clip": "polygon(0px 9%, 12% 0px, 100% 0px, 100% 100%, 0px 100%)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "naturalWidth": 625
+        },
+        {
+          "frame": [
+            24,
+            342
+          ],
+          "image": [
+            24,
+            342
+          ],
+          "title": "Áreas gourmet · Gêmeos Móveis Planejados",
+          "src": "/assets/images/gemeos/area-gourmet.webp",
+          "clip": "polygon(0px 9%, 12% 0px, 100% 0px, 100% 100%, 0px 100%)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "naturalWidth": 691
+        },
+        {
+          "frame": [
+            24,
+            342
+          ],
+          "image": [
+            24,
+            342
+          ],
+          "title": "Comercial · Gêmeos Móveis Planejados",
+          "src": "/assets/images/gemeos/comercial-oab.webp",
+          "clip": "polygon(0px 9%, 12% 0px, 100% 0px, 100% 100%, 0px 100%)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "naturalWidth": 691
+        }
+      ],
+      "carouselMessages": [
+        {
+          "title": "Cozinhas",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Gostaria%20de%20conversar%20sobre%20cozinhas%20sob%20medida."
+        },
+        {
+          "title": "Salas e painéis",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Gostaria%20de%20conversar%20sobre%20salas%20e%20pain%C3%A9is%20sob%20medida."
+        },
+        {
+          "title": "Quartos",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Gostaria%20de%20conversar%20sobre%20quartos%20sob%20medida."
+        },
+        {
+          "title": "Home office",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Gostaria%20de%20conversar%20sobre%20home%20office%20sob%20medida."
+        },
+        {
+          "title": "Áreas gourmet",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Gostaria%20de%20conversar%20sobre%20%C3%A1reas%20gourmet%20sob%20medida."
+        },
+        {
+          "title": "CRISTALEIRAS",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Gostaria%20de%20conversar%20sobre%20cristaleiras%20sob%20medida."
+        },
+        {
+          "title": "Sala de jantar",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Gostaria%20de%20conversar%20sobre%20sala%20de%20jantar%20sob%20medida."
+        },
+        {
+          "title": "Quarto infantil",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Gostaria%20de%20conversar%20sobre%20quarto%20infantil%20sob%20medida."
+        }
+      ],
+      "labels": [
+        {
+          "text": "Reflecta e marcenaria",
+          "top": "16px",
+          "bottom": "388.812px",
+          "occluded": []
+        },
+        {
+          "text": "Madeira e ripado",
+          "top": "16px",
+          "bottom": "268.812px",
+          "occluded": []
+        },
+        {
+          "text": "Iluminação integrada",
+          "top": "214.812px",
+          "bottom": "10px",
+          "occluded": []
+        }
+      ],
+      "focus": {
+        "visible": true,
+        "color": "rgb(49, 87, 109)",
+        "width": "2px"
+      },
+      "overflow": false,
+      "brokenImages": 0,
+      "cls": 0,
+      "menu": "passed",
+      "carouselArrowsKeyboardPointerTouch": "passed"
+    },
+    {
+      "width": 768,
+      "comparedElements": 325,
+      "geometryDifferences": 0,
+      "contactLinks": [
+        {
+          "id": "",
+          "class": "header-cta",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Vi%20o%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20m%C3%B3veis%20planejados.",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "text": "Solicitar orçamento"
+        },
+        {
+          "id": "",
+          "class": "mobile-menu-cta",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Vi%20o%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20m%C3%B3veis%20planejados.",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "text": "Solicitar orçamento ↗"
+        },
+        {
+          "id": "",
+          "class": "btn btn-light",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Vi%20o%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20m%C3%B3veis%20planejados.",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "text": "SOLICITAR ORÇAMENTO"
+        },
+        {
+          "id": "activeBudget",
+          "class": "btn btn-outline-light",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Gostaria%20de%20conversar%20sobre%20cozinhas%20sob%20medida.",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "text": "PLANEJAR ALGO NESSA LINHA ↗"
+        },
+        {
+          "id": "",
+          "class": "btn btn-light",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Vi%20o%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20m%C3%B3veis%20planejados.",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "text": "CONVERSAR NO WHATSAPP ↗"
+        },
+        {
+          "id": "",
+          "class": "",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Vi%20o%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20m%C3%B3veis%20planejados.",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "text": "Conversar no WhatsApp ↗"
+        },
+        {
+          "id": "",
+          "class": "floating-wa",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Vi%20o%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20m%C3%B3veis%20planejados.",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "text": "FALAR"
+        }
+      ],
+      "instagramLinks": [
+        {
+          "href": "https://www.instagram.com/gemeosmoveis/",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "href": "https://www.instagram.com/gemeosmoveis/",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "href": "https://www.instagram.com/gemeosmoveis/",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        }
+      ],
+      "environmentChoices": [
+        {
+          "frame": [
+            406.5,
+            337.5
+          ],
+          "image": [
+            406.5,
+            337.5
+          ],
+          "title": "Cozinhas · Gêmeos Móveis Planejados",
+          "src": "/assets/images/gemeos/final/cozinha-tratada-final.webp",
+          "clip": "polygon(0px 9%, 12% 0px, 100% 0px, 100% 100%, 0px 100%)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "naturalWidth": 900
+        },
+        {
+          "frame": [
+            406.5,
+            337.5
+          ],
+          "image": [
+            406.5,
+            337.5
+          ],
+          "title": "Salas · Gêmeos Móveis Planejados",
+          "src": "/assets/images/gemeos/final/sala-tv-final.webp",
+          "clip": "polygon(0px 9%, 12% 0px, 100% 0px, 100% 100%, 0px 100%)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "naturalWidth": 900
+        },
+        {
+          "frame": [
+            406.5,
+            337.5
+          ],
+          "image": [
+            406.5,
+            337.5
+          ],
+          "title": "Quartos · Gêmeos Móveis Planejados",
+          "src": "/assets/images/gemeos/projeto-quarto-reflecta.webp",
+          "clip": "polygon(0px 9%, 12% 0px, 100% 0px, 100% 100%, 0px 100%)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "naturalWidth": 691
+        },
+        {
+          "frame": [
+            406.5,
+            337.5
+          ],
+          "image": [
+            406.5,
+            337.5
+          ],
+          "title": "Home office · Gêmeos Móveis Planejados",
+          "src": "/assets/images/gemeos/projeto-home-office.webp",
+          "clip": "polygon(0px 9%, 12% 0px, 100% 0px, 100% 100%, 0px 100%)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "naturalWidth": 625
+        },
+        {
+          "frame": [
+            406.5,
+            337.5
+          ],
+          "image": [
+            406.5,
+            337.5
+          ],
+          "title": "Áreas gourmet · Gêmeos Móveis Planejados",
+          "src": "/assets/images/gemeos/area-gourmet.webp",
+          "clip": "polygon(0px 9%, 12% 0px, 100% 0px, 100% 100%, 0px 100%)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "naturalWidth": 691
+        },
+        {
+          "frame": [
+            406.5,
+            337.5
+          ],
+          "image": [
+            406.5,
+            337.5
+          ],
+          "title": "Comercial · Gêmeos Móveis Planejados",
+          "src": "/assets/images/gemeos/comercial-oab.webp",
+          "clip": "polygon(0px 9%, 12% 0px, 100% 0px, 100% 100%, 0px 100%)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "naturalWidth": 691
+        }
+      ],
+      "carouselMessages": [
+        {
+          "title": "Cozinhas",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Gostaria%20de%20conversar%20sobre%20cozinhas%20sob%20medida."
+        },
+        {
+          "title": "Salas e painéis",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Gostaria%20de%20conversar%20sobre%20salas%20e%20pain%C3%A9is%20sob%20medida."
+        },
+        {
+          "title": "Quartos",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Gostaria%20de%20conversar%20sobre%20quartos%20sob%20medida."
+        },
+        {
+          "title": "Home office",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Gostaria%20de%20conversar%20sobre%20home%20office%20sob%20medida."
+        },
+        {
+          "title": "Áreas gourmet",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Gostaria%20de%20conversar%20sobre%20%C3%A1reas%20gourmet%20sob%20medida."
+        },
+        {
+          "title": "CRISTALEIRAS",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Gostaria%20de%20conversar%20sobre%20cristaleiras%20sob%20medida."
+        },
+        {
+          "title": "Sala de jantar",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Gostaria%20de%20conversar%20sobre%20sala%20de%20jantar%20sob%20medida."
+        },
+        {
+          "title": "Quarto infantil",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Gostaria%20de%20conversar%20sobre%20quarto%20infantil%20sob%20medida."
+        }
+      ],
+      "labels": [
+        {
+          "text": "Reflecta e marcenaria",
+          "top": "16px",
+          "bottom": "528.594px",
+          "occluded": []
+        },
+        {
+          "text": "Madeira e ripado",
+          "top": "16px",
+          "bottom": "243px",
+          "occluded": []
+        },
+        {
+          "text": "Iluminação integrada",
+          "top": "274.203px",
+          "bottom": "12px",
+          "occluded": []
+        }
+      ],
+      "focus": {
+        "visible": true,
+        "color": "rgb(49, 87, 109)",
+        "width": "2px"
+      },
+      "overflow": false,
+      "brokenImages": 0,
+      "cls": 0.00007014703976599526,
+      "menu": "passed",
+      "carouselArrowsKeyboardPointerTouch": "passed"
+    },
+    {
+      "width": 1440,
+      "comparedElements": 325,
+      "geometryDifferences": 0,
+      "contactLinks": [
+        {
+          "id": "",
+          "class": "header-cta",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Vi%20o%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20m%C3%B3veis%20planejados.",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "text": "Solicitar orçamento"
+        },
+        {
+          "id": "",
+          "class": "mobile-menu-cta",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Vi%20o%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20m%C3%B3veis%20planejados.",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "text": "Solicitar orçamento ↗"
+        },
+        {
+          "id": "",
+          "class": "btn btn-light",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Vi%20o%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20m%C3%B3veis%20planejados.",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "text": "SOLICITAR ORÇAMENTO"
+        },
+        {
+          "id": "activeBudget",
+          "class": "btn btn-outline-light",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Gostaria%20de%20conversar%20sobre%20cozinhas%20sob%20medida.",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "text": "PLANEJAR ALGO NESSA LINHA ↗"
+        },
+        {
+          "id": "",
+          "class": "btn btn-light",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Vi%20o%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20m%C3%B3veis%20planejados.",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "text": "CONVERSAR NO WHATSAPP ↗"
+        },
+        {
+          "id": "",
+          "class": "",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Vi%20o%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20m%C3%B3veis%20planejados.",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "text": "Conversar no WhatsApp ↗"
+        },
+        {
+          "id": "",
+          "class": "floating-wa",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Vi%20o%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20m%C3%B3veis%20planejados.",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "text": "FALAR"
+        }
+      ],
+      "instagramLinks": [
+        {
+          "href": "https://www.instagram.com/gemeosmoveis/",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "href": "https://www.instagram.com/gemeosmoveis/",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "href": "https://www.instagram.com/gemeosmoveis/",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        }
+      ],
+      "environmentChoices": [
+        {
+          "frame": [
+            799,
+            561
+          ],
+          "image": [
+            799,
+            561
+          ],
+          "title": "Cozinhas · Gêmeos Móveis Planejados",
+          "src": "/assets/images/gemeos/final/cozinha-tratada-final.webp",
+          "clip": "polygon(0px 10%, 10% 0px, 100% 0px, 100% 100%, 0px 100%)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "naturalWidth": 900
+        },
+        {
+          "frame": [
+            799,
+            561
+          ],
+          "image": [
+            799,
+            561
+          ],
+          "title": "Salas · Gêmeos Móveis Planejados",
+          "src": "/assets/images/gemeos/final/sala-tv-final.webp",
+          "clip": "polygon(0px 10%, 10% 0px, 100% 0px, 100% 100%, 0px 100%)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "naturalWidth": 900
+        },
+        {
+          "frame": [
+            799,
+            561
+          ],
+          "image": [
+            799,
+            561
+          ],
+          "title": "Quartos · Gêmeos Móveis Planejados",
+          "src": "/assets/images/gemeos/projeto-quarto-reflecta.webp",
+          "clip": "polygon(0px 10%, 10% 0px, 100% 0px, 100% 100%, 0px 100%)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "naturalWidth": 691
+        },
+        {
+          "frame": [
+            799,
+            561
+          ],
+          "image": [
+            799,
+            561
+          ],
+          "title": "Home office · Gêmeos Móveis Planejados",
+          "src": "/assets/images/gemeos/projeto-home-office.webp",
+          "clip": "polygon(0px 10%, 10% 0px, 100% 0px, 100% 100%, 0px 100%)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "naturalWidth": 625
+        },
+        {
+          "frame": [
+            799,
+            561
+          ],
+          "image": [
+            799,
+            561
+          ],
+          "title": "Áreas gourmet · Gêmeos Móveis Planejados",
+          "src": "/assets/images/gemeos/area-gourmet.webp",
+          "clip": "polygon(0px 10%, 10% 0px, 100% 0px, 100% 100%, 0px 100%)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "naturalWidth": 691
+        },
+        {
+          "frame": [
+            799,
+            561
+          ],
+          "image": [
+            799,
+            561
+          ],
+          "title": "Comercial · Gêmeos Móveis Planejados",
+          "src": "/assets/images/gemeos/comercial-oab.webp",
+          "clip": "polygon(0px 10%, 10% 0px, 100% 0px, 100% 100%, 0px 100%)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "naturalWidth": 691
+        }
+      ],
+      "carouselMessages": [
+        {
+          "title": "Cozinhas",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Gostaria%20de%20conversar%20sobre%20cozinhas%20sob%20medida."
+        },
+        {
+          "title": "Salas e painéis",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Gostaria%20de%20conversar%20sobre%20salas%20e%20pain%C3%A9is%20sob%20medida."
+        },
+        {
+          "title": "Quartos",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Gostaria%20de%20conversar%20sobre%20quartos%20sob%20medida."
+        },
+        {
+          "title": "Home office",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Gostaria%20de%20conversar%20sobre%20home%20office%20sob%20medida."
+        },
+        {
+          "title": "Áreas gourmet",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Gostaria%20de%20conversar%20sobre%20%C3%A1reas%20gourmet%20sob%20medida."
+        },
+        {
+          "title": "CRISTALEIRAS",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Gostaria%20de%20conversar%20sobre%20cristaleiras%20sob%20medida."
+        },
+        {
+          "title": "Sala de jantar",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Gostaria%20de%20conversar%20sobre%20sala%20de%20jantar%20sob%20medida."
+        },
+        {
+          "title": "Quarto infantil",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Gostaria%20de%20conversar%20sobre%20quarto%20infantil%20sob%20medida."
+        }
+      ],
+      "labels": [
+        {
+          "text": "Reflecta e marcenaria",
+          "top": "16px",
+          "bottom": "617.703px",
+          "occluded": []
+        },
+        {
+          "text": "Madeira e ripado",
+          "top": "16px",
+          "bottom": "298.203px",
+          "occluded": []
+        },
+        {
+          "text": "Iluminação integrada",
+          "top": "309.297px",
+          "bottom": "12px",
+          "occluded": []
+        }
+      ],
+      "focus": {
+        "visible": true,
+        "color": "rgb(49, 87, 109)",
+        "width": "2px"
+      },
+      "overflow": false,
+      "brokenImages": 0,
+      "cls": 0.00006107231987847222,
+      "menu": "passed",
+      "carouselArrowsKeyboardPointerTouch": "passed"
+    },
+    {
+      "width": 1920,
+      "comparedElements": 325,
+      "geometryDifferences": 0,
+      "contactLinks": [
+        {
+          "id": "",
+          "class": "header-cta",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Vi%20o%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20m%C3%B3veis%20planejados.",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "text": "Solicitar orçamento"
+        },
+        {
+          "id": "",
+          "class": "mobile-menu-cta",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Vi%20o%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20m%C3%B3veis%20planejados.",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "text": "Solicitar orçamento ↗"
+        },
+        {
+          "id": "",
+          "class": "btn btn-light",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Vi%20o%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20m%C3%B3veis%20planejados.",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "text": "SOLICITAR ORÇAMENTO"
+        },
+        {
+          "id": "activeBudget",
+          "class": "btn btn-outline-light",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Gostaria%20de%20conversar%20sobre%20cozinhas%20sob%20medida.",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "text": "PLANEJAR ALGO NESSA LINHA ↗"
+        },
+        {
+          "id": "",
+          "class": "btn btn-light",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Vi%20o%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20m%C3%B3veis%20planejados.",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "text": "CONVERSAR NO WHATSAPP ↗"
+        },
+        {
+          "id": "",
+          "class": "",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Vi%20o%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20m%C3%B3veis%20planejados.",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "text": "Conversar no WhatsApp ↗"
+        },
+        {
+          "id": "",
+          "class": "floating-wa",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Vi%20o%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20m%C3%B3veis%20planejados.",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "text": "FALAR"
+        }
+      ],
+      "instagramLinks": [
+        {
+          "href": "https://www.instagram.com/gemeosmoveis/",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "href": "https://www.instagram.com/gemeosmoveis/",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "href": "https://www.instagram.com/gemeosmoveis/",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        }
+      ],
+      "environmentChoices": [
+        {
+          "frame": [
+            1046.5,
+            643.5
+          ],
+          "image": [
+            1046.5,
+            643.5
+          ],
+          "title": "Cozinhas · Gêmeos Móveis Planejados",
+          "src": "/assets/images/gemeos/final/cozinha-tratada-final.webp",
+          "clip": "polygon(0px 10%, 10% 0px, 100% 0px, 100% 100%, 0px 100%)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "naturalWidth": 900
+        },
+        {
+          "frame": [
+            1046.5,
+            643.5
+          ],
+          "image": [
+            1046.5,
+            643.5
+          ],
+          "title": "Salas · Gêmeos Móveis Planejados",
+          "src": "/assets/images/gemeos/final/sala-tv-final.webp",
+          "clip": "polygon(0px 10%, 10% 0px, 100% 0px, 100% 100%, 0px 100%)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "naturalWidth": 900
+        },
+        {
+          "frame": [
+            1046.5,
+            643.5
+          ],
+          "image": [
+            1046.5,
+            643.5
+          ],
+          "title": "Quartos · Gêmeos Móveis Planejados",
+          "src": "/assets/images/gemeos/projeto-quarto-reflecta.webp",
+          "clip": "polygon(0px 10%, 10% 0px, 100% 0px, 100% 100%, 0px 100%)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "naturalWidth": 691
+        },
+        {
+          "frame": [
+            1046.5,
+            643.5
+          ],
+          "image": [
+            1046.5,
+            643.5
+          ],
+          "title": "Home office · Gêmeos Móveis Planejados",
+          "src": "/assets/images/gemeos/projeto-home-office.webp",
+          "clip": "polygon(0px 10%, 10% 0px, 100% 0px, 100% 100%, 0px 100%)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "naturalWidth": 625
+        },
+        {
+          "frame": [
+            1046.5,
+            643.5
+          ],
+          "image": [
+            1046.5,
+            643.5
+          ],
+          "title": "Áreas gourmet · Gêmeos Móveis Planejados",
+          "src": "/assets/images/gemeos/area-gourmet.webp",
+          "clip": "polygon(0px 10%, 10% 0px, 100% 0px, 100% 100%, 0px 100%)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "naturalWidth": 691
+        },
+        {
+          "frame": [
+            1046.5,
+            643.5
+          ],
+          "image": [
+            1046.5,
+            643.5
+          ],
+          "title": "Comercial · Gêmeos Móveis Planejados",
+          "src": "/assets/images/gemeos/comercial-oab.webp",
+          "clip": "polygon(0px 10%, 10% 0px, 100% 0px, 100% 100%, 0px 100%)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "naturalWidth": 691
+        }
+      ],
+      "carouselMessages": [
+        {
+          "title": "Cozinhas",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Gostaria%20de%20conversar%20sobre%20cozinhas%20sob%20medida."
+        },
+        {
+          "title": "Salas e painéis",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Gostaria%20de%20conversar%20sobre%20salas%20e%20pain%C3%A9is%20sob%20medida."
+        },
+        {
+          "title": "Quartos",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Gostaria%20de%20conversar%20sobre%20quartos%20sob%20medida."
+        },
+        {
+          "title": "Home office",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Gostaria%20de%20conversar%20sobre%20home%20office%20sob%20medida."
+        },
+        {
+          "title": "Áreas gourmet",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Gostaria%20de%20conversar%20sobre%20%C3%A1reas%20gourmet%20sob%20medida."
+        },
+        {
+          "title": "CRISTALEIRAS",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Gostaria%20de%20conversar%20sobre%20cristaleiras%20sob%20medida."
+        },
+        {
+          "title": "Sala de jantar",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Gostaria%20de%20conversar%20sobre%20sala%20de%20jantar%20sob%20medida."
+        },
+        {
+          "title": "Quarto infantil",
+          "href": "https://wa.me/553499271517?text=Ol%C3%A1%2C%20G%C3%AAmeos!%20Gostaria%20de%20conversar%20sobre%20quarto%20infantil%20sob%20medida."
+        }
+      ],
+      "labels": [
+        {
+          "text": "Reflecta e marcenaria",
+          "top": "16px",
+          "bottom": "654.906px",
+          "occluded": []
+        },
+        {
+          "text": "Madeira e ripado",
+          "top": "16px",
+          "bottom": "317.406px",
+          "occluded": []
+        },
+        {
+          "text": "Iluminação integrada",
+          "top": "328.906px",
+          "bottom": "12px",
+          "occluded": []
+        }
+      ],
+      "focus": {
+        "visible": true,
+        "color": "rgb(49, 87, 109)",
+        "width": "2px"
+      },
+      "overflow": false,
+      "brokenImages": 0,
+      "cls": 0.00003435317993164062,
+      "menu": "passed",
+      "carouselArrowsKeyboardPointerTouch": "passed"
+    }
+  ],
+  "contrast": {
+    "blueOnLight": 4.68,
+    "blueLightOnInk": 6.47,
+    "blueLightOnCharcoal": 5.44,
+    "blueDeepOnLight": 6.74,
+    "processNumber": 6.06,
+    "body": 12.4,
+    "secondaryText": 4.81,
+    "signature": 12.93,
+    "footer": 8.36
+  },
+  "errors": [],
+  "requests": [],
+  "reducedMotion": "passed",
+  "build": "passed",
+  "sourceScope": "Only config/site.js contact fields and three blue CSS tokens changed. HTML, base CSS, assets, crops and scripts preserved. CSS geometry compared with confirmed contact configuration in both states; pending contact notice intentionally hidden and footer contact wording activated by existing code.",
+  "externalBoundary": "All hrefs, URL encoding and click handlers exercised; external navigation cancelled in test to avoid sending messages. No delivery of WhatsApp messages attempted.",
+  "screens": []
+}

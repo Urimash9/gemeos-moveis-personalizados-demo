@@ -1,0 +1,134 @@
+[
+  {
+    "width": 390,
+    "photo": {
+      "x": 153.96875,
+      "y": 480.03125,
+      "width": 212.03125,
+      "height": 200,
+      "right": 366,
+      "bottom": 680.03125
+    },
+    "card": {
+      "x": 165.96875,
+      "y": 654.03125,
+      "width": 188.03125,
+      "height": 64,
+      "right": 354,
+      "bottom": 718.03125
+    },
+    "group": {
+      "x": 153.96875,
+      "y": 480.03125,
+      "width": 212.03125,
+      "height": 238,
+      "right": 366,
+      "bottom": 718.03125
+    },
+    "image": {
+      "x": 165.96875,
+      "y": 492.03125,
+      "width": 188.03125,
+      "height": 176,
+      "right": 354,
+      "bottom": 668.03125
+    },
+    "overlap": 14,
+    "frameRatio": 0.6199744152046783,
+    "overflow": false,
+    "brokenImages": 0,
+    "textFits": true,
+    "fontSize": "10px",
+    "cls": 0,
+    "errors": [],
+    "otherSectionsAndMainPhoto": "unchanged"
+  },
+  {
+    "width": 768,
+    "photo": {
+      "x": 456,
+      "y": 479.8125,
+      "width": 288,
+      "height": 260.390625,
+      "right": 744,
+      "bottom": 740.203125
+    },
+    "card": {
+      "x": 468,
+      "y": 714.203125,
+      "width": 264,
+      "height": 64,
+      "right": 732,
+      "bottom": 778.203125
+    },
+    "group": {
+      "x": 456,
+      "y": 479.8125,
+      "width": 288,
+      "height": 298.390625,
+      "right": 744,
+      "bottom": 778.203125
+    },
+    "image": {
+      "x": 468,
+      "y": 491.8125,
+      "width": 264,
+      "height": 236.390625,
+      "right": 732,
+      "bottom": 728.203125
+    },
+    "overlap": 14,
+    "frameRatio": 0.4,
+    "overflow": false,
+    "brokenImages": 0,
+    "textFits": true,
+    "fontSize": "11px",
+    "cls": 0,
+    "errors": [],
+    "otherSectionsAndMainPhoto": "unchanged"
+  },
+  {
+    "width": 1440,
+    "photo": {
+      "x": 1042.59375,
+      "y": 689,
+      "width": 324.453125,
+      "height": 279.5,
+      "right": 1367.046875,
+      "bottom": 968.5
+    },
+    "card": {
+      "x": 1056.59375,
+      "y": 942.5,
+      "width": 296.453125,
+      "height": 64,
+      "right": 1353.046875,
+      "bottom": 1006.5
+    },
+    "group": {
+      "x": 1042.59375,
+      "y": 689,
+      "width": 324.453125,
+      "height": 317.5,
+      "right": 1367.046875,
+      "bottom": 1006.5
+    },
+    "image": {
+      "x": 1056.59375,
+      "y": 703,
+      "width": 296.453125,
+      "height": 251.5,
+      "right": 1353.046875,
+      "bottom": 954.5
+    },
+    "overlap": 12,
+    "frameRatio": 0.4602171985815603,
+    "overflow": false,
+    "brokenImages": 0,
+    "textFits": true,
+    "fontSize": "11px",
+    "cls": 0,
+    "errors": [],
+    "otherSectionsAndMainPhoto": "unchanged"
+  }
+]

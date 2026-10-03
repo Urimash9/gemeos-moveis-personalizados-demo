@@ -1,0 +1,87 @@
+{
+  "referenceCommit": "ebe7187e3369a548d5ee235f71ccd3a8096d8b5a",
+  "results": [
+    {
+      "width": 390,
+      "comparedElements": 325,
+      "nonColorStyleDifferences": 0,
+      "overflow": false,
+      "brokenImages": 0,
+      "cls": 0,
+      "activeColor": "rgb(82, 105, 120)",
+      "focus": {
+        "color": "rgb(57, 78, 91)",
+        "width": "2px",
+        "offset": "5px"
+      }
+    },
+    {
+      "width": 768,
+      "comparedElements": 325,
+      "nonColorStyleDifferences": 0,
+      "overflow": false,
+      "brokenImages": 0,
+      "cls": 0,
+      "activeColor": "rgb(82, 105, 120)",
+      "focus": {
+        "color": "rgb(57, 78, 91)",
+        "width": "2px",
+        "offset": "5px"
+      }
+    },
+    {
+      "width": 1440,
+      "comparedElements": 325,
+      "nonColorStyleDifferences": 0,
+      "overflow": false,
+      "brokenImages": 0,
+      "cls": 0,
+      "activeColor": "rgb(82, 105, 120)",
+      "focus": {
+        "color": "rgb(57, 78, 91)",
+        "width": "2px",
+        "offset": "5px"
+      }
+    }
+  ],
+  "contrast": {
+    "body": {
+      "foreground": "rgb(41, 43, 44)",
+      "background": "rgb(242, 239, 234)",
+      "ratio": 12.4
+    },
+    "secondaryText": {
+      "foreground": "rgb(98, 106, 110)",
+      "background": "rgb(242, 239, 234)",
+      "ratio": 4.81
+    },
+    "activeEnvironment": {
+      "foreground": "rgb(82, 105, 120)",
+      "background": "rgb(242, 239, 234)",
+      "ratio": 5.02
+    },
+    "processNumber": {
+      "foreground": "color(srgb 0.489804 0.587843 0.642745)",
+      "background": "rgb(37, 40, 42)",
+      "ratio": 4.78
+    },
+    "signature": {
+      "foreground": "rgb(242, 239, 234)",
+      "background": "rgb(37, 40, 42)",
+      "ratio": 12.93
+    },
+    "footerLabels": {
+      "foreground": "rgb(182, 178, 172)",
+      "background": "rgb(23, 25, 26)",
+      "ratio": 8.36
+    }
+  },
+  "errors": [],
+  "requests": [],
+  "sourceScope": "Only styles/gemeos.css changed; HTML, base.css, scripts, assets and configuration byte-identical",
+  "geometry": "All DOM elements and pseudo-elements retain geometry, type, clip-path, object-position and animation/transition properties at all three widths",
+  "environmentHoverFocus": "passed",
+  "carousel": "passed",
+  "mobileMenu": "passed",
+  "reducedMotion": "passed"
+}
