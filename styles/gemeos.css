@@ -18,8 +18,6 @@ html{scroll-padding-top:92px}
 .hero-image:after{background:linear-gradient(90deg,rgba(30,33,31,.75),rgba(30,33,31,.07) 65%),linear-gradient(0deg,rgba(0,0,0,.2),transparent 60%)}
 .asset-note{position:absolute;z-index:5;right:22px;bottom:100px;max-width:calc(100% - 44px);padding:7px 10px;background:rgba(25,28,25,.78);font-size:9px;line-height:1.4;letter-spacing:.07em;color:#f1eee8;text-transform:uppercase}
 .intro-copy h2{max-width:560px}
-.experience{background:#1b1c1e;right:3%;width:186px;height:162px;padding:23px;justify-content:center}
-.experience strong{font-size:17px;line-height:1.75;letter-spacing:.02em;font-weight:500}
 .intro-visual>.asset-note{bottom:5px;left:0;right:auto;font-size:8px}
 .environment-stage{background:#e7e2db}
 .environment-preview>span{font-size:8px;line-height:1.4;letter-spacing:.05em}
@@ -73,7 +71,6 @@ a:focus-visible,button:focus-visible,.carousel-stage:focus-visible{outline:2px s
   .hero-media .asset-note{top:90px;bottom:auto;right:18px;font-size:7px}
   .hero-index{gap:10px;margin-top:23px;font-size:8px}.hero-index:before{width:25px}
   .intro-copy h2{font-size:44px}.intro-copy>p:not(.eyebrow){font-size:14px;line-height:1.75}
-  .experience{width:143px;height:140px;padding:20px;right:-3%;top:0}.experience strong{font-size:14px}
   .intro-visual>.asset-note{bottom:-22px;font-size:7px;max-width:100%}
   .environment-copy h2,.details-intro h2,.portfolio-head h2{font-size:43px}
   .environment-item strong{font-size:24px}.environment-item{padding:17px 0}
@@ -104,7 +101,6 @@ a:focus-visible,button:focus-visible,.carousel-stage:focus-visible{outline:2px s
 .hero-actions .btn{background:var(--light);clip-path:polygon(0 0,100% 0,100% 80%,96% 100%,0 100%)}
 .hero-line-b{border-color:rgba(213,164,95,.4)}
 .hero-image:after{background:linear-gradient(90deg,rgba(23,24,25,.62),rgba(23,24,25,.06) 45%),linear-gradient(0deg,rgba(23,24,25,.12),transparent 40%)}
-.experience{left:-20px;right:auto;top:auto;bottom:12%;width:178px;height:154px;background:var(--dark2)}
 .intro-shape-main{width:76%}
 .intro-shape-main img{object-fit:cover}
 .environment-preview{background:#d4cbc1}
@@ -157,7 +153,6 @@ a:focus-visible,button:focus-visible,.carousel-stage:focus-visible{outline:2px s
  .hero-copy>p:not(.eyebrow){margin-bottom:24px}
  .hero-actions{flex-direction:row}
  .intro-shape-main{width:92%}
- .experience{left:0;right:auto;top:auto;bottom:0;width:143px;height:140px}
  .featured-visual{height:520px}
  .process-photo{max-width:100%;margin-top:28px}.process-photo img{height:430px}
  .project img{height:auto;aspect-ratio:4/5}.p2 img{aspect-ratio:691/900}.p3 img{aspect-ratio:625/760}.p4 img{aspect-ratio:691/850}
@@ -170,3 +165,36 @@ a:focus-visible,button:focus-visible,.carousel-stage:focus-visible{outline:2px s
 [data-gallery]{scale:var(--asset-scale,1);clip-path:inset(var(--asset-inset,0%))}
 .spatial-card:not(.is-active){filter:brightness(.86)}
 .spatial-card:not(.is-active) img{filter:none}
+
+/* BUILD 02.1 — projeto e assinatura formam uma única peça sobreposta. */
+.intro-project-signature{
+ --frame-border:14px;
+ position:absolute;z-index:2;right:-1%;bottom:-1%;width:46%;height:calc(43% + 38px);
+}
+.intro-project-signature .intro-shape-small{
+ top:0;bottom:auto;right:0;width:100%;height:calc(100% - 38px);
+ border-width:var(--frame-border);
+ clip-path:polygon(18% 0,100% 0,100% 100%,0 100%,0 18%);
+}
+.intro-project-signature .experience{
+ left:var(--frame-border);right:var(--frame-border);top:auto;bottom:0;
+ width:auto;height:64px;padding:14px 18px;background:var(--dark2);
+ justify-content:center;clip-path:polygon(0 0,100% 0,100% calc(100% - 18px),calc(100% - 18px) 100%,0 100%);
+}
+.intro-project-signature .experience strong{
+ display:flex;flex-wrap:wrap;align-items:center;gap:4px 7px;
+ font-size:11px;line-height:1.55;letter-spacing:.065em;font-weight:500;
+}
+.intro-project-signature .experience span{
+ margin:0;font-size:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;white-space:nowrap;
+}
+.intro-project-signature .experience span:first-child::after{content:" ·"}
+@media(min-width:561px) and (max-width:900px){
+ .intro-project-signature{width:40%;height:calc(42% + 38px);right:0;bottom:0;--frame-border:12px}
+}
+@media(max-width:560px){
+ .intro-project-signature{width:62%;height:calc(40% + 38px);right:0;bottom:0;--frame-border:12px}
+ .intro-project-signature .experience{padding:10px 14px}
+ .intro-project-signature .experience strong{flex-direction:column;align-items:flex-start;gap:2px;font-size:10px}
+ .intro-project-signature .experience span:first-child::after{content:none}
+}
