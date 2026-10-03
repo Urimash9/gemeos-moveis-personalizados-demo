@@ -1,0 +1,166 @@
+{
+  "results": [
+    {
+      "width": 390,
+      "main": {
+        "x": 24,
+        "y": 224.03125,
+        "width": 321.46875,
+        "height": 444.5625,
+        "right": 345.46875,
+        "bottom": 668.59375
+      },
+      "a": {
+        "x": 229.203125,
+        "y": 561.140625,
+        "width": 136.796875,
+        "height": 151.453125,
+        "right": 366,
+        "bottom": 712.59375
+      },
+      "b": {
+        "x": 24,
+        "y": 648.59375,
+        "width": 219.1875,
+        "height": 64,
+        "right": 243.1875,
+        "bottom": 712.59375
+      },
+      "stage": {
+        "x": 24,
+        "y": 224.03125,
+        "width": 342,
+        "height": 488.5625,
+        "right": 366,
+        "bottom": 712.59375
+      },
+      "face": {
+        "x": 183.1060962373372,
+        "y": 324.70631693198266,
+        "right": 238.46757416787264,
+        "bottom": 390.30268994211286
+      },
+      "cardAToMainOverlap": 12493.104736328125,
+      "cardBToMainOverlap": 4383.75,
+      "cardAToCardBOverlap": 895,
+      "faceCovered": false,
+      "faceInside": true,
+      "sharedBaseline": 0,
+      "textFits": true,
+      "overflow": false,
+      "brokenImages": 0,
+      "brokenFragments": 0,
+      "cls": 0
+    },
+    {
+      "width": 768,
+      "main": {
+        "x": 64,
+        "y": 82.203125,
+        "width": 550.390625,
+        "height": 727.078125,
+        "right": 614.390625,
+        "bottom": 809.28125
+      },
+      "a": {
+        "x": 473.609375,
+        "y": 560.28125,
+        "width": 230.390625,
+        "height": 293,
+        "right": 704,
+        "bottom": 853.28125
+      },
+      "b": {
+        "x": 64,
+        "y": 785.28125,
+        "width": 425.59375,
+        "height": 68,
+        "right": 489.59375,
+        "bottom": 853.28125
+      },
+      "stage": {
+        "x": 64,
+        "y": 82.203125,
+        "width": 640,
+        "height": 771.078125,
+        "right": 704,
+        "bottom": 853.28125
+      },
+      "face": {
+        "x": 336.40751628075253,
+        "y": 231.40742673661362,
+        "right": 431.1925877351664,
+        "bottom": 343.7157887120116
+      },
+      "cardAToMainOverlap": 35054.53125,
+      "cardBToMainOverlap": 10214.25,
+      "cardAToCardBOverlap": 1086.9375,
+      "faceCovered": false,
+      "faceInside": true,
+      "sharedBaseline": 0,
+      "textFits": true,
+      "overflow": false,
+      "brokenImages": 0,
+      "brokenFragments": 0,
+      "cls": 0
+    },
+    {
+      "width": 1440,
+      "main": {
+        "x": 666.65625,
+        "y": 165,
+        "width": 596.265625,
+        "height": 791.34375,
+        "right": 1262.921875,
+        "bottom": 956.34375
+      },
+      "a": {
+        "x": 1110.40625,
+        "y": 682.921875,
+        "width": 249.59375,
+        "height": 317.421875,
+        "right": 1360,
+        "bottom": 1000.34375
+      },
+      "b": {
+        "x": 666.65625,
+        "y": 932.34375,
+        "width": 459.734375,
+        "height": 68,
+        "right": 1126.390625,
+        "bottom": 1000.34375
+      },
+      "stage": {
+        "x": 666.65625,
+        "y": 165,
+        "width": 693.34375,
+        "height": 835.34375,
+        "right": 1360,
+        "bottom": 1000.34375
+      },
+      "face": {
+        "x": 961.7689037626628,
+        "y": 329.1318080680174,
+        "right": 1064.4543008321273,
+        "bottom": 450.8010600578872
+      },
+      "cardAToMainOverlap": 41701.108154296875,
+      "cardBToMainOverlap": 11033.625,
+      "cardAToCardBOverlap": 1086.9375,
+      "faceCovered": false,
+      "faceInside": true,
+      "sharedBaseline": 0,
+      "textFits": true,
+      "overflow": false,
+      "brokenImages": 0,
+      "brokenFragments": 0,
+      "cls": 0
+    }
+  ],
+  "errors": [],
+  "requests": [],
+  "unrelatedSource": "byte-identical",
+  "menu": "passed",
+  "carousel": "passed",
+  "reducedMotion": "passed"
+}

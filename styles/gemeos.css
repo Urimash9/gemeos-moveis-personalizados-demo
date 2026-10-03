@@ -166,55 +166,48 @@ a:focus-visible,button:focus-visible,.carousel-stage:focus-visible{outline:2px s
 .spatial-card:not(.is-active){filter:brightness(.86)}
 .spatial-card:not(.is-active) img{filter:none}
 
-/* BUILD 02.2 — retrato principal e coluna de apoio em fluxo editorial. */
+/* BUILD 02.3 — moldura expandida, dois apoios intertravados sobre o retrato. */
 .intro .intro-visual{
- display:grid;grid-template-columns:minmax(0,1.9fr) minmax(0,1fr);gap:20px;
- align-items:end;height:auto;margin-left:0;min-width:0;
+ --support-width:36%;--joint:16px;--cut:18px;--signature-height:68px;
+ position:relative;display:block;height:auto;aspect-ratio:.83;
+ margin-left:0;min-width:0;
 }
 .intro .intro-visual::before,.intro .intro-visual::after{content:none}
 .intro .intro-shape-main{
- position:relative;inset:auto;width:100%;height:auto;aspect-ratio:3/4;
- clip-path:polygon(0 0,100% 0,100% calc(100% - 16px),calc(100% - 16px) 100%,0 100%);
+ position:absolute;inset:0 auto auto 0;width:86%;height:calc(100% - 44px);
+ clip-path:polygon(0 0,100% 0,100% calc(100% - var(--cut)),calc(100% - var(--cut)) 100%,0 100%);
 }
-.intro .intro-shape-main img{position:absolute;inset:0;width:100%;height:100%}
-.intro .intro-support{
- display:flex;flex-direction:column;min-width:0;margin-bottom:28px;
+.intro .intro-shape-main img{width:100%;height:100%}
+.intro .intro-shape-small{
+ position:absolute;inset:auto 0 0 auto;z-index:2;
+ width:var(--support-width);height:38%;border:6px solid var(--light);
+ clip-path:polygon(var(--cut) 0,100% 0,100% calc(100% - var(--cut)),calc(100% - var(--cut)) 100%,0 100%,0 var(--cut));
 }
-.intro .intro-support .intro-shape-small{
- position:relative;inset:auto;width:100%;height:auto;aspect-ratio:3/4;
- border:0;clip-path:polygon(14px 0,100% 0,100% 100%,0 100%,0 14px);
-}
-.intro .intro-shape-small img{position:absolute;inset:0;width:100%;height:100%}
+.intro .intro-shape-small img{width:100%;height:100%}
 .intro .intro-signature{
- position:relative;width:100%;min-width:0;min-height:74px;
- display:flex;align-items:center;padding:18px 14px;
+ position:absolute;z-index:3;left:0;bottom:0;
+ width:calc(100% - var(--support-width) + var(--joint));height:var(--signature-height);
+ display:flex;align-items:center;padding:16px 28px 16px 22px;
  background:var(--dark2);color:var(--light);
- clip-path:polygon(0 0,100% 0,100% calc(100% - 14px),calc(100% - 14px) 100%,0 100%);
+ clip-path:polygon(0 0,calc(100% - var(--cut)) 0,100% var(--cut),100% 100%,0 100%);
 }
 .intro .intro-signature strong{
- display:flex;flex-direction:column;gap:3px 7px;
- font-size:11px;line-height:1.6;letter-spacing:.055em;font-weight:500;
+ display:flex;flex-wrap:wrap;gap:3px 7px;
+ font-size:12px;line-height:1.6;letter-spacing:.055em;font-weight:500;
 }
 .intro .intro-signature strong span{white-space:nowrap}
-
-@media(min-width:901px) and (max-width:1100px){
- .intro .intro-visual{grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:16px}
- .intro .intro-signature{padding-inline:12px}
- .intro .intro-signature strong{font-size:10px}
-}
+.intro .intro-signature strong span:first-child::after{content:" ·"}
 @media(min-width:561px) and (max-width:900px){
- .intro .intro-visual{grid-template-columns:minmax(0,1.65fr) minmax(0,1fr);gap:24px}
- .intro .intro-support{margin-bottom:24px}
- .intro .intro-signature{padding:18px;min-height:74px}
- .intro .intro-signature strong{flex-direction:row;flex-wrap:wrap}
- .intro .intro-signature strong span:first-child::after{content:" ·"}
+ .intro .intro-visual{max-width:640px;margin-inline:auto}
 }
 @media(max-width:560px){
- .intro .intro-visual{display:flex;flex-direction:column;align-items:stretch;gap:18px}
- .intro .intro-shape-main{width:100%;aspect-ratio:3/4}
- .intro .intro-support{width:82%;margin:0 0 0 auto}
- .intro .intro-support .intro-shape-small{aspect-ratio:5/4}
- .intro .intro-signature{min-height:62px;padding:16px 18px}
- .intro .intro-signature strong{font-size:11px;flex-direction:row;flex-wrap:wrap}
- .intro .intro-signature strong span:first-child::after{content:" ·"}
+ .intro .intro-visual{
+  --support-width:40%;--joint:14px;--cut:14px;--signature-height:64px;
+  aspect-ratio:.7;
+ }
+ .intro .intro-shape-main{width:94%;height:calc(100% - 44px)}
+ .intro .intro-shape-small{height:31%;border-width:5px}
+ .intro .intro-signature{padding:12px 22px 12px 14px}
+ .intro .intro-signature strong{flex-direction:column;gap:2px;font-size:11px}
+ .intro .intro-signature strong span:first-child::after{content:none}
 }
